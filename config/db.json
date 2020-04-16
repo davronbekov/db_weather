@@ -4,6 +4,6 @@
     "port": 3306,
     "name": "db_weather",
     "user": "root",
-    "password": "tiger"
+    "password": ""
   }
 }
