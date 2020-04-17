@@ -40,34 +40,25 @@
                         </h1>
                     </header>
                     <div class="auth-content">
-                        <p class="text-center">LOGIN TO CONTINUE</p>
-                        <form id="login-form" action="/index.html" method="GET" novalidate="">
+                        <p class="text-center">PASSWORD RECOVER</p>
+                        <p class="text-muted text-center"><small>Enter your email address to recover your password.</small></p>
+                        <form id="reset-form" action="/index.php" method="GET" novalidate="">
                             <div class="form-group">
-                                <label for="username">Username</label>
-                                <input type="email" class="form-control underlined" name="username" id="username" placeholder="Your email address" required>
+                                <label for="email1">Email</label>
+                                <input type="email" class="form-control underlined" name="email1" id="email1" placeholder="Your email address" required>
                             </div>
                             <div class="form-group">
-                                <label for="password">Password</label>
-                                <input type="password" class="form-control underlined" name="password" id="password" placeholder="Your password" required>
+                                <button type="submit" class="btn btn-block btn-primary">Reset</button>
                             </div>
-                            <div class="form-group">
-                                <label for="remember">
-                                    <input class="checkbox" id="remember" type="checkbox">
-                                    <span>Remember me</span>
-                                </label>
-                                <a href="reset.html" class="forgot-btn pull-right">Forgot password?</a>
-                            </div>
-                            <div class="form-group">
-                                <button type="submit" class="btn btn-block btn-primary">Login</button>
-                            </div>
-                            <div class="form-group">
-                                <p class="text-muted text-center">Do not have an account? <a href="signup.html">Sign Up</a></p>
+                            <div class="form-group clearfix">
+                                <a class="pull-left" href="login.php">Return to Login</a>
+                                <a class="pull-right" href="signup.php">Sign Up</a>
                             </div>
                         </form>
                     </div>
                 </div>
                 <div class="text-center">
-                    <a href="index.html" class="btn btn-secondary btn-sm">
+                    <a href="index.php" class="btn btn-secondary btn-sm">
                         <i class="fa fa-arrow-left"></i> Back to dashboard </a>
                 </div>
             </div>

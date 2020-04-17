@@ -125,7 +125,7 @@
                                     <a class="dropdown-item" href="#">
                                         <i class="fa fa-gear icon"></i> Settings </a>
                                     <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="login.html">
+                                    <a class="dropdown-item" href="login.php">
                                         <i class="fa fa-power-off icon"></i> Logout </a>
                                 </div>
                             </li>
@@ -148,7 +148,7 @@
                         <nav class="menu">
                             <ul class="sidebar-menu metismenu" id="sidebar-menu">
                                 <li>
-                                    <a href="index.html">
+                                    <a href="index.php">
                                         <i class="fa fa-home"></i> Dashboard </a>
                                 </li>
                                 <li>
@@ -157,10 +157,10 @@
                                     </a>
                                     <ul class="sidebar-nav">
                                         <li>
-                                            <a href="items-list.html"> Items List </a>
+                                            <a href="items-list.php"> Items List </a>
                                         </li>
                                         <li>
-                                            <a href="item-editor.html"> Item Editor </a>
+                                            <a href="item-editor.php"> Item Editor </a>
                                         </li>
                                     </ul>
                                 </li>
@@ -170,10 +170,10 @@
                                     </a>
                                     <ul class="sidebar-nav">
                                         <li>
-                                            <a href="charts-flot.html"> Flot Charts </a>
+                                            <a href="charts-flot.php"> Flot Charts </a>
                                         </li>
                                         <li>
-                                            <a href="charts-morris.html"> Morris Charts </a>
+                                            <a href="charts-morris.php"> Morris Charts </a>
                                         </li>
                                     </ul>
                                 </li>
@@ -183,36 +183,36 @@
                                     </a>
                                     <ul class="sidebar-nav">
                                         <li>
-                                            <a href="static-tables.html"> Static Tables </a>
+                                            <a href="static-tables.php"> Static Tables </a>
                                         </li>
                                         <li>
-                                            <a href="responsive-tables.html"> Responsive Tables </a>
+                                            <a href="responsive-tables.php"> Responsive Tables </a>
                                         </li>
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="forms.html">
+                                    <a href="forms.php">
                                         <i class="fa fa-pencil-square-o"></i> Forms </a>
                                 </li>
-                                <li class="active open">
+                                <li>
                                     <a href="">
                                         <i class="fa fa-desktop"></i> UI Elements <i class="fa arrow"></i>
                                     </a>
                                     <ul class="sidebar-nav">
                                         <li>
-                                            <a href="buttons.html"> Buttons </a>
+                                            <a href="buttons.php"> Buttons </a>
                                         </li>
                                         <li>
-                                            <a href="cards.html"> Cards </a>
-                                        </li>
-                                        <li class="active">
-                                            <a href="typography.html"> Typography </a>
+                                            <a href="cards.php"> Cards </a>
                                         </li>
                                         <li>
-                                            <a href="icons.html"> Icons </a>
+                                            <a href="typography.php"> Typography </a>
                                         </li>
                                         <li>
-                                            <a href="grid.html"> Grid </a>
+                                            <a href="icons.php"> Icons </a>
+                                        </li>
+                                        <li>
+                                            <a href="grid.php"> Grid </a>
                                         </li>
                                     </ul>
                                 </li>
@@ -222,25 +222,25 @@
                                     </a>
                                     <ul class="sidebar-nav">
                                         <li>
-                                            <a href="login.html"> Login </a>
+                                            <a href="login.php"> Login </a>
                                         </li>
                                         <li>
-                                            <a href="signup.html"> Sign Up </a>
+                                            <a href="signup.php"> Sign Up </a>
                                         </li>
                                         <li>
-                                            <a href="reset.html"> Reset </a>
+                                            <a href="reset.php"> Reset </a>
                                         </li>
                                         <li>
-                                            <a href="error-404.html"> Error 404 App </a>
+                                            <a href="error-404.php"> Error 404 App </a>
                                         </li>
                                         <li>
-                                            <a href="error-404-alt.html"> Error 404 Global </a>
+                                            <a href="error-404-alt.php"> Error 404 Global </a>
                                         </li>
                                         <li>
-                                            <a href="error-500.html"> Error 500 App </a>
+                                            <a href="error-500.php"> Error 500 App </a>
                                         </li>
                                         <li>
-                                            <a href="error-500-alt.html"> Error 500 Global </a>
+                                            <a href="error-500-alt.php"> Error 500 Global </a>
                                         </li>
                                     </ul>
                                 </li>
@@ -291,7 +291,7 @@
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="screenful.html">
+                                    <a href="screenful.php">
                                         <i class="fa fa-bar-chart"></i> Agile Metrics <span class="label label-screenful">by Screenful</span>
                                     </a>
                                 </li>
@@ -403,154 +403,181 @@
                 <div class="sidebar-overlay" id="sidebar-overlay"></div>
                 <div class="sidebar-mobile-menu-handle" id="sidebar-mobile-menu-handle"></div>
                 <div class="mobile-menu-handle"></div>
-                <article class="content typography-page">
+                <article class="content screenful-page">
                     <div class="title-block">
-                        <h3 class="title"> Typography </h3>
+                        <h1 class="title"> Agile Metrics </h1 <p class="title-description"> Supercharge your teamwork with <a href="https://screenful.com" target="_blank">Screenful</a>! </p>
                     </div>
                     <section class="section">
-                        <div class="row sameheight-container">
-                            <div class="col-md-4">
-                                <div class="card sameheight-item">
-                                    <div class="card-block">
-                                        <div class="card-title-block">
-                                            <h3 class="title"> Headings </h3>
-                                        </div>
-                                        <section class="section">
-                                            <h1>Heading 1 <small>Sub-heading</small>
-                                            </h1>
-                                            <h2>Heading 2 <small>Sub-heading</small>
-                                            </h2>
-                                            <h3>Heading 3 <small>Sub-heading</small>
-                                            </h3>
-                                            <h4>Heading 4 <small>Sub-heading</small>
-                                            </h4>
-                                            <h5>Heading 5 <small>Sub-heading</small>
-                                            </h5>
-                                            <h6>Heading 6 <small>Sub-heading</small>
-                                            </h6>
-                                        </section>
-                                    </div>
-                                </div>
+                        <h3 class="subtitle">This project is proudly supported by</h3>
+                        <a href="https://screenful.com/?utm_source=modularadmin&utm_campaign=modularadmin" target="_blank">
+                            <div class="screenful-logo"></div>
+                        </a>
+                        <p class="description"> Screenful is the easiest way to <strong>visualise and share your project progress</strong> using data from your <strong>existing tools</strong>.<br> Get a quick overview of your team's status on your smartphone or tablet. <a href="https://screenful.com/?utm_source=modularadmin&utm_campaign=modularadmin" target="_blank">Learn more</a>
+                        </p>
+                        <div class="divider"></div>
+                        <div class="container integrations">
+                            <h3 class="integrations-title">Visual dashboards and team status reports</h3>
+                            <div class="integrations-tools">
+                                <a href="https://screenful.com/dashboard-for-trello/?utm_source=modularadmin&utm_campaign=modularadmin" class="integration-item">
+                                    <img class="integration-logo" title="Instant visual dashboards for Trello" alt="Instant visual dashboards for Trello" src='/assets/screenful/integration-trello.png'>
+                                </a>
+                                <a href="https://screenful.com/dashboard-for-jira/?utm_source=modularadmin&utm_campaign=modularadmin" class="integration-item">
+                                    <img class="integration-logo" title="Instant visual dashboards for JIRA" alt="Instant visual dashboards for JIRA" src='/assets/screenful/integration-jira.png'>
+                                </a>
+                                <a href="https://screenful.com/dashboard-for-github/?utm_source=modularadmin&utm_campaign=modularadmin" class="integration-item">
+                                    <img class="integration-logo" title="Instant visual dashboards for GitHub issues" alt="Instant visual dashboards for GitHub issues" src='/assets/screenful/integration-github.png'>
+                                </a>
+                                <a href="https://screenful.com/dashboard-for-pivotal-tracker/?utm_source=modularadmin&utm_campaign=modularadmin" class="integration-item">
+                                    <img class="integration-logo" title="Instant visual dashboards for Pivotal Tracker" alt="Instant visual dashboards for Pivotal Tracker" src='/assets/screenful/integration-pivotal.png'>
+                                </a>
+                                <a href="https://screenful.com/dashboard-for-asana/?utm_source=modularadmin&utm_campaign=modularadmin" class="integration-item">
+                                    <img class="integration-logo" title="Instant visual dashboards for Asana" alt="Instant visual dashboards for Asana" src='/assets/screenful/integration-asana.png'>
+                                </a>
+                                <a href="https://screenful.com/dashboard-for-gitlab/?utm_source=modularadmin&utm_campaign=modularadmin" class="integration-item">
+                                    <img class="integration-logo" title="Instant visual dashboards for Asana" alt="Instant visual dashboards for Asana" src='/assets/screenful/integration-gitlab.png'>
+                                </a>
                             </div>
-                            <div class="col-md-4">
-                                <div class="card sameheight-item">
-                                    <div class="card-block">
-                                        <div class="card-title-block">
-                                            <h3 class="title"> Paragraphs </h3>
-                                        </div>
-                                        <section class="section">
-                                            <p class="lead">This is an example of lead body copy.</p>
-                                            <p>This is an example of standard paragraph text. This is an example of <a href="javascript:void(0);">link anchor text</a> within body copy.</p>
-                                            <p>
-                                                <small>This is an example of small, fine print text.</small>
-                                            </p>
-                                            <p>
-                                                <strong>This is an example of strong, bold text.</strong>
-                                            </p>
-                                            <p>
-                                                <em>This is an example of emphasized, italic text.</em>
-                                            </p>
-                                        </section>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="card sameheight-item">
-                                    <div class="card-block">
-                                        <div class="card-title-block">
-                                            <h3 class="title"> Emphasis Classes </h3>
-                                        </div>
-                                        <section class="section">
-                                            <p class="text-muted">This is an example of muted text.</p>
-                                            <p class="text-primary">This is an example of primary text.</p>
-                                            <p class="text-success">This is an example of success text.</p>
-                                            <p class="text-info">This is an example of info text.</p>
-                                            <p class="text-warning">This is an example of warning text.</p>
-                                            <p class="text-danger">This is an example of danger text.</p>
-                                        </section>
-                                    </div>
-                                </div>
-                            </div>
+                            <h6 class="subtitle">Click the logo to learn how it works with your tool of choice!</h6>
                         </div>
-                    </section>
-                    <section class="section">
-                        <div class="row sameheight-container">
-                            <div class="col-md-4">
-                                <div class="card sameheight-item">
-                                    <div class="card-block">
-                                        <div class="card-title-block">
-                                            <h3 class="title"> Abbreviations </h3>
-                                        </div>
-                                        <section class="section">
-                                            <p>The abbreviation of the word attribute is <abbr title="attribute">attr</abbr>.</p>
-                                            <p>
-                                                <abbr title="HyperText Markup Language" class="initialism">HTML</abbr>is an abbreviation for a programming language.</p>
-                                            <br>
-                                            <h4>Addresses</h4>
-                                            <address>
-                                                <strong>Twitter, Inc.</strong>
-                                                <br>795 Folsom Ave, Suite 600 <br>San Francisco, CA 94107 <br>
-                                                <abbr title="Phone">P:</abbr>(123) 456-7890</address>
-                                            <address>
-                                                <strong>Full Name</strong>
-                                                <br><a href="mailto:#">first.last@example.com</a>
-                                            </address>
-                                        </section>
+                        <div class="divider"></div>
+                        <h3 class="benefits-title">Make better decisions based on facts</h3>
+                        <div class="row">
+                            <div class="col-md-6 screen-colum">
+                                <div class="screen-item">
+                                    <a href="https://screenful.com/tour/timing-screen/?utm_source=modularadmin&utm_campaign=modularadmin">
+                                        <img class="ex-pic" alt="Timing Screen" title="Timing Screen" src='/assets/screenful/screen-timing.png'>
+                                    </a>
+                                    <div class="description">
+                                        <a href="https://screenful.com/tour/timing-screen/?utm_source=modularadmin&utm_campaign=modularadmin">
+                                            <h3 class="title">Track your lead and cycle times</h3>
+                                        </a>
+                                        <ul>
+                                            <li>What is your average lead time for resolving bug/ticket/story?</li>
+                                            <li>How quickly tasks are resolved after work is started?</li>
+                                            <li>Identify bottlenecks in your workflow.</li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4">
-                                <div class="card sameheight-item">
-                                    <div class="card-block">
-                                        <div class="card-title-block">
-                                            <h3 class="title"> Blockquotes </h3>
-                                        </div>
-                                        <section class="section">
-                                            <h4>Default Blockquote</h4>
-                                            <blockquote>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                            </blockquote>
-                                            <h4>Blockquote with Citation</h4>
-                                            <blockquote>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                                <small>Someone famous in <cite title="Source Title">Source Title</cite>
-                                                </small>
-                                            </blockquote>
-                                            <h4>Right Aligned Blockquote</h4>
-                                            <blockquote class="pull-right">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                            </blockquote>
-                                        </section>
+                            <div class="col-md-6 screen-colum">
+                                <div class="screen-item">
+                                    <a href="https://screenful.com/tour/sprint-burndown-chart/?utm_source=modularadmin&utm_campaign=modularadmin">
+                                        <img class="ex-pic" alt="Sprint Burndown" title="Sprint Burndown" src='/assets/screenful/screen-sprint.png'>
+                                    </a>
+                                    <div class="description">
+                                        <a href="https://screenful.com/tour/sprint-burndown-chart/?utm_source=modularadmin&utm_campaign=modularadmin">
+                                            <h3 class="title">Track your sprint progress with a burndown chart</h3>
+                                        </a>
+                                        <ul>
+                                            <li>Are you ahead or behind the target?</li>
+                                            <li>How many tasks are still not started?</li>
+                                            <li>Is your team's velocity stable?</li>
+                                            <li>A better sprint burndown chart for your team.</li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4">
-                                <div class="card sameheight-item">
-                                    <div class="card-block">
-                                        <div class="card-title-block">
-                                            <h3 class="title"> Lists </h3>
-                                        </div>
-                                        <section class="section">
-                                            <h4>Unordered List</h4>
-                                            <ul>
-                                                <li>List Item</li>
-                                                <li>List Item</li>
-                                                <li>
-                                                    <ul>
-                                                        <li>List Item</li>
-                                                        <li>List Item</li>
-                                                        <li>List Item</li>
-                                                    </ul>
-                                                </li>
-                                                <li>List Item</li>
-                                            </ul>
-                                            <h4>Ordered List</h4>
-                                            <ol>
-                                                <li>List Item</li>
-                                                <li>List Item</li>
-                                                <li>List Item</li>
-                                            </ol>
-                                        </section>
+                            <div class="col-md-6 screen-colum">
+                                <div class="screen-item">
+                                    <a href="https://screenful.com/tour/milestone-burnup-chart/?utm_source=modularadmin&utm_campaign=modularadmin">
+                                        <img class="ex-pic" alt="Milestone Burnup Chart" title="Milestone Burnup Chart" src='/assets/screenful/screen-milestone.png'>
+                                    </a>
+                                    <div class="description">
+                                        <a href="https://screenful.com/tour/milestone-burnup-chart/?utm_source=modularadmin&utm_campaign=modularadmin">
+                                            <h3 class="title">Monitor the progress of your milestones</h3>
+                                        </a>
+                                        <ul>
+                                            <li>How much of work is done vs still todo?</li>
+                                            <li>How scope changes affect the projected delivery dates?</li>
+                                            <li>What is the most likely delivery date based on recent velocity?</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 screen-colum">
+                                <div class="screen-item">
+                                    <a href="https://screenful.com/tour/task-status-screen/?utm_source=modularadmin&utm_campaign=modularadmin">
+                                        <img class="ex-pic" alt="Task Status" title="Task Status" src='/assets/screenful/screen-task-status.png'>
+                                    </a>
+                                    <div class="description">
+                                        <a href="https://screenful.com/tour/task-status-screen/?utm_source=modularadmin&utm_campaign=modularadmin">
+                                            <h3 class="title">Gain a bird's-eye view on your projects</h3>
+                                        </a>
+                                        <ul>
+                                            <li>Are there any overdue tasks?</li>
+                                            <li>Does everyone has enough work assigned?</li>
+                                            <li>What has been recently completed?</li>
+                                            <li>How many tasks were created or completed within last 7 days?</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 screen-colum">
+                                <div class="screen-item">
+                                    <a href="https://screenful.com/tour/open-tasks-chart/?utm_source=modularadmin&utm_campaign=modularadmin">
+                                        <img class="ex-pic" alt="Open Tasks chart" title="Open Tasks chart" src='/assets/screenful/screen-open-tasks.png'>
+                                    </a>
+                                    <div class="description">
+                                        <a href="https://screenful.com/tour/open-tasks-chart/?utm_source=modularadmin&utm_campaign=modularadmin">
+                                            <h3 class="title">Track your work in progress</h3>
+                                        </a>
+                                        <ul>
+                                            <li>How many open tasks there are per label/workflow state/assignee?</li>
+                                            <li>How much work is assigned to each individual?</li>
+                                            <li>Is your work piling up?</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 screen-colum">
+                                <div class="screen-item">
+                                    <a href="https://screenful.com/tour/completed-tasks-chart/?utm_source=modularadmin&utm_campaign=modularadmin">
+                                        <img class="ex-pic" alt="Completed Tasks chart" title="Completed Tasks chart" src='/assets/screenful/screen-completed-tasks.png'>
+                                    </a>
+                                    <div class="description">
+                                        <a href="https://screenful.com/tour/completed-tasks-chart/?utm_source=modularadmin&utm_campaign=modularadmin">
+                                            <h3 class="title">Track your completed work</h3>
+                                        </a>
+                                        <ul>
+                                            <li>How much work did you get done?</li>
+                                            <li>How is your time distributed between different activities?</li>
+                                            <li>What is the trend - are you working more on activities that create value?</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 screen-colum">
+                                <div class="screen-item">
+                                    <a href="https://screenful.com/tour/team-status-screen/?utm_source=modularadmin&utm_campaign=modularadmin">
+                                        <img class="ex-pic" alt="Team Status screen" title="Team Status screen" src='/assets/screenful/screen-team-status.png'>
+                                    </a>
+                                    <div class="description">
+                                        <a href="https://screenful.com/tour/team-status-screen/?utm_source=modularadmin&utm_campaign=modularadmin">
+                                            <h3 class="title">See what each team member is currently working on</h3>
+                                        </a>
+                                        <ul>
+                                            <li>Which tasks are currently in progress?</li>
+                                            <li>Who's working on what?</li>
+                                            <li>What has been recently completed?</li>
+                                            <li>Pick your own lists. </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 screen-colum">
+                                <div class="screen-item">
+                                    <a href="https://screenful.com/blog/introducing-custom-chart-create-any-chart-from-your-task-data/?utm_source=modularadmin&utm_campaign=modularadmin">
+                                        <img class="ex-pic" alt="Custom Chart" title="Custom Chart" src='/assets/screenful/screen-custom-chart.png'>
+                                    </a>
+                                    <div class="description">
+                                        <a href="https://screenful.com/blog/introducing-custom-chart-create-any-chart-from-your-task-data/?utm_source=modularadmin&utm_campaign=modularadmin">
+                                            <h3 class="title">Create custom charts</h3>
+                                        </a>
+                                        <ul>
+                                            <li>Create charts from your task data</li>
+                                            <li>Tasks or story points done, lead & cycle times, pick the metric you want to see</li>
+                                            <li>Group by label, assignee, source board, or by any other property.</li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
@@ -559,7 +586,7 @@
                 </article>
                 <footer class="footer">
                     <div class="footer-block buttons">
-                        <iframe class="footer-github-btn" src="https://ghbtns.com/github-btn.html?user=modularcode&repo=modular-admin-html&type=star&count=true" frameborder="0" scrolling="0" width="140px" height="20px"></iframe>
+                        <iframe class="footer-github-btn" src="https://ghbtns.com/github-btn.php?user=modularcode&repo=modular-admin-html&type=star&count=true" frameborder="0" scrolling="0" width="140px" height="20px"></iframe>
                     </div>
                     <div class="footer-block author">
                         <ul>

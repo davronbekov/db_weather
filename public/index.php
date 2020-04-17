@@ -125,7 +125,7 @@
                                     <a class="dropdown-item" href="#">
                                         <i class="fa fa-gear icon"></i> Settings </a>
                                     <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="login.html">
+                                    <a class="dropdown-item" href="login.php">
                                         <i class="fa fa-power-off icon"></i> Logout </a>
                                 </div>
                             </li>
@@ -148,7 +148,7 @@
                         <nav class="menu">
                             <ul class="sidebar-menu metismenu" id="sidebar-menu">
                                 <li class="active">
-                                    <a href="index.html">
+                                    <a href="index.php">
                                         <i class="fa fa-home"></i> Dashboard </a>
                                 </li>
                                 <li>
@@ -157,10 +157,10 @@
                                     </a>
                                     <ul class="sidebar-nav">
                                         <li>
-                                            <a href="items-list.html"> Items List </a>
+                                            <a href="items-list.php"> Items List </a>
                                         </li>
                                         <li>
-                                            <a href="item-editor.html"> Item Editor </a>
+                                            <a href="item-editor.php"> Item Editor </a>
                                         </li>
                                     </ul>
                                 </li>
@@ -170,10 +170,10 @@
                                     </a>
                                     <ul class="sidebar-nav">
                                         <li>
-                                            <a href="charts-flot.html"> Flot Charts </a>
+                                            <a href="charts-flot.php"> Flot Charts </a>
                                         </li>
                                         <li>
-                                            <a href="charts-morris.html"> Morris Charts </a>
+                                            <a href="charts-morris.php"> Morris Charts </a>
                                         </li>
                                     </ul>
                                 </li>
@@ -183,15 +183,15 @@
                                     </a>
                                     <ul class="sidebar-nav">
                                         <li>
-                                            <a href="static-tables.html"> Static Tables </a>
+                                            <a href="static-tables.php"> Static Tables </a>
                                         </li>
                                         <li>
-                                            <a href="responsive-tables.html"> Responsive Tables </a>
+                                            <a href="responsive-tables.php"> Responsive Tables </a>
                                         </li>
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="forms.html">
+                                    <a href="forms.php">
                                         <i class="fa fa-pencil-square-o"></i> Forms </a>
                                 </li>
                                 <li>
@@ -200,19 +200,19 @@
                                     </a>
                                     <ul class="sidebar-nav">
                                         <li>
-                                            <a href="buttons.html"> Buttons </a>
+                                            <a href="buttons.php"> Buttons </a>
                                         </li>
                                         <li>
-                                            <a href="cards.html"> Cards </a>
+                                            <a href="cards.php"> Cards </a>
                                         </li>
                                         <li>
-                                            <a href="typography.html"> Typography </a>
+                                            <a href="typography.php"> Typography </a>
                                         </li>
                                         <li>
-                                            <a href="icons.html"> Icons </a>
+                                            <a href="icons.php"> Icons </a>
                                         </li>
                                         <li>
-                                            <a href="grid.html"> Grid </a>
+                                            <a href="grid.php"> Grid </a>
                                         </li>
                                     </ul>
                                 </li>
@@ -222,25 +222,25 @@
                                     </a>
                                     <ul class="sidebar-nav">
                                         <li>
-                                            <a href="login.html"> Login </a>
+                                            <a href="login.php"> Login </a>
                                         </li>
                                         <li>
-                                            <a href="signup.html"> Sign Up </a>
+                                            <a href="signup.php"> Sign Up </a>
                                         </li>
                                         <li>
-                                            <a href="reset.html"> Reset </a>
+                                            <a href="reset.php"> Reset </a>
                                         </li>
                                         <li>
-                                            <a href="error-404.html"> Error 404 App </a>
+                                            <a href="error-404.php"> Error 404 App </a>
                                         </li>
                                         <li>
-                                            <a href="error-404-alt.html"> Error 404 Global </a>
+                                            <a href="error-404-alt.php"> Error 404 Global </a>
                                         </li>
                                         <li>
-                                            <a href="error-500.html"> Error 500 App </a>
+                                            <a href="error-500.php"> Error 500 App </a>
                                         </li>
                                         <li>
-                                            <a href="error-500-alt.html"> Error 500 Global </a>
+                                            <a href="error-500-alt.php"> Error 500 Global </a>
                                         </li>
                                     </ul>
                                 </li>
@@ -291,7 +291,7 @@
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="screenful.html">
+                                    <a href="screenful.php">
                                         <i class="fa fa-bar-chart"></i> Agile Metrics <span class="label label-screenful">by Screenful</span>
                                     </a>
                                 </li>
@@ -529,7 +529,7 @@
                                     <div class="card-header bordered">
                                         <div class="header-block">
                                             <h3 class="title"> Items </h3>
-                                            <a href="item-editor.html" class="btn btn-primary btn-sm"> Add new </a>
+                                            <a href="item-editor.php" class="btn btn-primary btn-sm"> Add new </a>
                                         </div>
                                         <div class="header-block pull-right">
                                             <label class="search">
@@ -827,7 +827,7 @@
                                                                             </a>
                                                                         </li>
                                                                         <li>
-                                                                            <a class="edit" href="item-editor.html">
+                                                                            <a class="edit" href="item-editor.php">
                                                                                 <i class="fa fa-pencil"></i>
                                                                             </a>
                                                                         </li>
@@ -868,7 +868,7 @@
                                                                             </a>
                                                                         </li>
                                                                         <li>
-                                                                            <a class="edit" href="item-editor.html">
+                                                                            <a class="edit" href="item-editor.php">
                                                                                 <i class="fa fa-pencil"></i>
                                                                             </a>
                                                                         </li>
@@ -909,7 +909,7 @@
                                                                             </a>
                                                                         </li>
                                                                         <li>
-                                                                            <a class="edit" href="item-editor.html">
+                                                                            <a class="edit" href="item-editor.php">
                                                                                 <i class="fa fa-pencil"></i>
                                                                             </a>
                                                                         </li>
@@ -950,7 +950,7 @@
                                                                             </a>
                                                                         </li>
                                                                         <li>
-                                                                            <a class="edit" href="item-editor.html">
+                                                                            <a class="edit" href="item-editor.php">
                                                                                 <i class="fa fa-pencil"></i>
                                                                             </a>
                                                                         </li>
@@ -991,7 +991,7 @@
                                                                             </a>
                                                                         </li>
                                                                         <li>
-                                                                            <a class="edit" href="item-editor.html">
+                                                                            <a class="edit" href="item-editor.php">
                                                                                 <i class="fa fa-pencil"></i>
                                                                             </a>
                                                                         </li>
@@ -1032,7 +1032,7 @@
                                                                             </a>
                                                                         </li>
                                                                         <li>
-                                                                            <a class="edit" href="item-editor.html">
+                                                                            <a class="edit" href="item-editor.php">
                                                                                 <i class="fa fa-pencil"></i>
                                                                             </a>
                                                                         </li>
@@ -1073,7 +1073,7 @@
                                                                             </a>
                                                                         </li>
                                                                         <li>
-                                                                            <a class="edit" href="item-editor.html">
+                                                                            <a class="edit" href="item-editor.php">
                                                                                 <i class="fa fa-pencil"></i>
                                                                             </a>
                                                                         </li>
@@ -1114,7 +1114,7 @@
                                                                             </a>
                                                                         </li>
                                                                         <li>
-                                                                            <a class="edit" href="item-editor.html">
+                                                                            <a class="edit" href="item-editor.php">
                                                                                 <i class="fa fa-pencil"></i>
                                                                             </a>
                                                                         </li>
@@ -1155,7 +1155,7 @@
                                                                             </a>
                                                                         </li>
                                                                         <li>
-                                                                            <a class="edit" href="item-editor.html">
+                                                                            <a class="edit" href="item-editor.php">
                                                                                 <i class="fa fa-pencil"></i>
                                                                             </a>
                                                                         </li>
@@ -1196,7 +1196,7 @@
                                                                             </a>
                                                                         </li>
                                                                         <li>
-                                                                            <a class="edit" href="item-editor.html">
+                                                                            <a class="edit" href="item-editor.php">
                                                                                 <i class="fa fa-pencil"></i>
                                                                             </a>
                                                                         </li>
@@ -1237,7 +1237,7 @@
                                                                             </a>
                                                                         </li>
                                                                         <li>
-                                                                            <a class="edit" href="item-editor.html">
+                                                                            <a class="edit" href="item-editor.php">
                                                                                 <i class="fa fa-pencil"></i>
                                                                             </a>
                                                                         </li>
@@ -1278,7 +1278,7 @@
                                                                             </a>
                                                                         </li>
                                                                         <li>
-                                                                            <a class="edit" href="item-editor.html">
+                                                                            <a class="edit" href="item-editor.php">
                                                                                 <i class="fa fa-pencil"></i>
                                                                             </a>
                                                                         </li>
@@ -1319,7 +1319,7 @@
                                                                             </a>
                                                                         </li>
                                                                         <li>
-                                                                            <a class="edit" href="item-editor.html">
+                                                                            <a class="edit" href="item-editor.php">
                                                                                 <i class="fa fa-pencil"></i>
                                                                             </a>
                                                                         </li>
@@ -1339,7 +1339,7 @@
                 </article>
                 <footer class="footer">
                     <div class="footer-block buttons">
-                        <iframe class="footer-github-btn" src="https://ghbtns.com/github-btn.html?user=modularcode&repo=modular-admin-html&type=star&count=true" frameborder="0" scrolling="0" width="140px" height="20px"></iframe>
+                        <iframe class="footer-github-btn" src="https://ghbtns.com/github-btn.php?user=modularcode&repo=modular-admin-html&type=star&count=true" frameborder="0" scrolling="0" width="140px" height="20px"></iframe>
                     </div>
                     <div class="footer-block author">
                         <ul>

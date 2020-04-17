@@ -125,7 +125,7 @@
                                     <a class="dropdown-item" href="#">
                                         <i class="fa fa-gear icon"></i> Settings </a>
                                     <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="login.html">
+                                    <a class="dropdown-item" href="login.php">
                                         <i class="fa fa-power-off icon"></i> Logout </a>
                                 </div>
                             </li>
@@ -148,7 +148,7 @@
                         <nav class="menu">
                             <ul class="sidebar-menu metismenu" id="sidebar-menu">
                                 <li>
-                                    <a href="index.html">
+                                    <a href="index.php">
                                         <i class="fa fa-home"></i> Dashboard </a>
                                 </li>
                                 <li>
@@ -157,10 +157,10 @@
                                     </a>
                                     <ul class="sidebar-nav">
                                         <li>
-                                            <a href="items-list.html"> Items List </a>
+                                            <a href="items-list.php"> Items List </a>
                                         </li>
                                         <li>
-                                            <a href="item-editor.html"> Item Editor </a>
+                                            <a href="item-editor.php"> Item Editor </a>
                                         </li>
                                     </ul>
                                 </li>
@@ -170,10 +170,10 @@
                                     </a>
                                     <ul class="sidebar-nav">
                                         <li>
-                                            <a href="charts-flot.html"> Flot Charts </a>
+                                            <a href="charts-flot.php"> Flot Charts </a>
                                         </li>
                                         <li>
-                                            <a href="charts-morris.html"> Morris Charts </a>
+                                            <a href="charts-morris.php"> Morris Charts </a>
                                         </li>
                                     </ul>
                                 </li>
@@ -183,36 +183,36 @@
                                     </a>
                                     <ul class="sidebar-nav">
                                         <li>
-                                            <a href="static-tables.html"> Static Tables </a>
+                                            <a href="static-tables.php"> Static Tables </a>
                                         </li>
                                         <li>
-                                            <a href="responsive-tables.html"> Responsive Tables </a>
+                                            <a href="responsive-tables.php"> Responsive Tables </a>
                                         </li>
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="forms.html">
+                                    <a href="forms.php">
                                         <i class="fa fa-pencil-square-o"></i> Forms </a>
                                 </li>
-                                <li>
+                                <li class="active open">
                                     <a href="">
                                         <i class="fa fa-desktop"></i> UI Elements <i class="fa arrow"></i>
                                     </a>
                                     <ul class="sidebar-nav">
                                         <li>
-                                            <a href="buttons.html"> Buttons </a>
+                                            <a href="buttons.php"> Buttons </a>
                                         </li>
                                         <li>
-                                            <a href="cards.html"> Cards </a>
+                                            <a href="cards.php"> Cards </a>
                                         </li>
                                         <li>
-                                            <a href="typography.html"> Typography </a>
+                                            <a href="typography.php"> Typography </a>
                                         </li>
                                         <li>
-                                            <a href="icons.html"> Icons </a>
+                                            <a href="icons.php"> Icons </a>
                                         </li>
-                                        <li>
-                                            <a href="grid.html"> Grid </a>
+                                        <li class="active">
+                                            <a href="grid.php"> Grid </a>
                                         </li>
                                     </ul>
                                 </li>
@@ -222,25 +222,25 @@
                                     </a>
                                     <ul class="sidebar-nav">
                                         <li>
-                                            <a href="login.html"> Login </a>
+                                            <a href="login.php"> Login </a>
                                         </li>
                                         <li>
-                                            <a href="signup.html"> Sign Up </a>
+                                            <a href="signup.php"> Sign Up </a>
                                         </li>
                                         <li>
-                                            <a href="reset.html"> Reset </a>
+                                            <a href="reset.php"> Reset </a>
                                         </li>
                                         <li>
-                                            <a href="error-404.html"> Error 404 App </a>
+                                            <a href="error-404.php"> Error 404 App </a>
                                         </li>
                                         <li>
-                                            <a href="error-404-alt.html"> Error 404 Global </a>
+                                            <a href="error-404-alt.php"> Error 404 Global </a>
                                         </li>
                                         <li>
-                                            <a href="error-500.html"> Error 500 App </a>
+                                            <a href="error-500.php"> Error 500 App </a>
                                         </li>
                                         <li>
-                                            <a href="error-500-alt.html"> Error 500 Global </a>
+                                            <a href="error-500-alt.php"> Error 500 Global </a>
                                         </li>
                                     </ul>
                                 </li>
@@ -291,7 +291,7 @@
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="screenful.html">
+                                    <a href="screenful.php">
                                         <i class="fa fa-bar-chart"></i> Agile Metrics <span class="label label-screenful">by Screenful</span>
                                     </a>
                                 </li>
@@ -403,181 +403,290 @@
                 <div class="sidebar-overlay" id="sidebar-overlay"></div>
                 <div class="sidebar-mobile-menu-handle" id="sidebar-mobile-menu-handle"></div>
                 <div class="mobile-menu-handle"></div>
-                <article class="content screenful-page">
+                <article class="content grid-page">
                     <div class="title-block">
-                        <h1 class="title"> Agile Metrics </h1 <p class="title-description"> Supercharge your teamwork with <a href="https://screenful.com" target="_blank">Screenful</a>! </p>
+                        <h3 class="title"> Grid </h3>
+                        <p class="title-description"> Grid elements </p>
                     </div>
                     <section class="section">
-                        <h3 class="subtitle">This project is proudly supported by</h3>
-                        <a href="https://screenful.com/?utm_source=modularadmin&utm_campaign=modularadmin" target="_blank">
-                            <div class="screenful-logo"></div>
-                        </a>
-                        <p class="description"> Screenful is the easiest way to <strong>visualise and share your project progress</strong> using data from your <strong>existing tools</strong>.<br> Get a quick overview of your team's status on your smartphone or tablet. <a href="https://screenful.com/?utm_source=modularadmin&utm_campaign=modularadmin" target="_blank">Learn more</a>
-                        </p>
-                        <div class="divider"></div>
-                        <div class="container integrations">
-                            <h3 class="integrations-title">Visual dashboards and team status reports</h3>
-                            <div class="integrations-tools">
-                                <a href="https://screenful.com/dashboard-for-trello/?utm_source=modularadmin&utm_campaign=modularadmin" class="integration-item">
-                                    <img class="integration-logo" title="Instant visual dashboards for Trello" alt="Instant visual dashboards for Trello" src='/assets/screenful/integration-trello.png'>
-                                </a>
-                                <a href="https://screenful.com/dashboard-for-jira/?utm_source=modularadmin&utm_campaign=modularadmin" class="integration-item">
-                                    <img class="integration-logo" title="Instant visual dashboards for JIRA" alt="Instant visual dashboards for JIRA" src='/assets/screenful/integration-jira.png'>
-                                </a>
-                                <a href="https://screenful.com/dashboard-for-github/?utm_source=modularadmin&utm_campaign=modularadmin" class="integration-item">
-                                    <img class="integration-logo" title="Instant visual dashboards for GitHub issues" alt="Instant visual dashboards for GitHub issues" src='/assets/screenful/integration-github.png'>
-                                </a>
-                                <a href="https://screenful.com/dashboard-for-pivotal-tracker/?utm_source=modularadmin&utm_campaign=modularadmin" class="integration-item">
-                                    <img class="integration-logo" title="Instant visual dashboards for Pivotal Tracker" alt="Instant visual dashboards for Pivotal Tracker" src='/assets/screenful/integration-pivotal.png'>
-                                </a>
-                                <a href="https://screenful.com/dashboard-for-asana/?utm_source=modularadmin&utm_campaign=modularadmin" class="integration-item">
-                                    <img class="integration-logo" title="Instant visual dashboards for Asana" alt="Instant visual dashboards for Asana" src='/assets/screenful/integration-asana.png'>
-                                </a>
-                                <a href="https://screenful.com/dashboard-for-gitlab/?utm_source=modularadmin&utm_campaign=modularadmin" class="integration-item">
-                                    <img class="integration-logo" title="Instant visual dashboards for Asana" alt="Instant visual dashboards for Asana" src='/assets/screenful/integration-gitlab.png'>
-                                </a>
+                        <div class="row sameheight-container">
+                            <div class="col-md-12">
+                                <div class="card sameheight-item">
+                                    <div class="card-block">
+                                        <div class="card-title-block">
+                                            <h3 class="title"> Example: Stacked-to-horizontal </h3>
+                                        </div>
+                                        <section class="section">
+                                            <p>Using a single set of <code>.col-md-*</code> grid classes, you can create a default grid system that starts out stacked on mobile devices and tablet devices (the extra small to small range) before becoming horizontal on desktop (medium) devices. Place grid columns in any <code>.row</code>.</p>
+                                            <div class="row">
+                                                <div class="col-md-1">
+                                                    <div class="box-placeholder">.col-md-1</div>
+                                                </div>
+                                                <div class="col-md-1">
+                                                    <div class="box-placeholder">.col-md-1</div>
+                                                </div>
+                                                <div class="col-md-1">
+                                                    <div class="box-placeholder">.col-md-1</div>
+                                                </div>
+                                                <div class="col-md-1">
+                                                    <div class="box-placeholder">.col-md-1</div>
+                                                </div>
+                                                <div class="col-md-1">
+                                                    <div class="box-placeholder">.col-md-1</div>
+                                                </div>
+                                                <div class="col-md-1">
+                                                    <div class="box-placeholder">.col-md-1</div>
+                                                </div>
+                                                <div class="col-md-1">
+                                                    <div class="box-placeholder">.col-md-1</div>
+                                                </div>
+                                                <div class="col-md-1">
+                                                    <div class="box-placeholder">.col-md-1</div>
+                                                </div>
+                                                <div class="col-md-1">
+                                                    <div class="box-placeholder">.col-md-1</div>
+                                                </div>
+                                                <div class="col-md-1">
+                                                    <div class="box-placeholder">.col-md-1</div>
+                                                </div>
+                                                <div class="col-md-1">
+                                                    <div class="box-placeholder">.col-md-1</div>
+                                                </div>
+                                                <div class="col-md-1">
+                                                    <div class="box-placeholder">.col-md-1</div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-8">
+                                                    <div class="box-placeholder">.col-md-8</div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <div class="box-placeholder">.col-md-4</div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <div class="box-placeholder">.col-md-4</div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <div class="box-placeholder">.col-md-4</div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <div class="box-placeholder">.col-md-4</div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="box-placeholder">.col-md-6</div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="box-placeholder">.col-md-6</div>
+                                                </div>
+                                            </div>
+                                        </section>
+                                    </div>
+                                </div>
                             </div>
-                            <h6 class="subtitle">Click the logo to learn how it works with your tool of choice!</h6>
                         </div>
-                        <div class="divider"></div>
-                        <h3 class="benefits-title">Make better decisions based on facts</h3>
-                        <div class="row">
-                            <div class="col-md-6 screen-colum">
-                                <div class="screen-item">
-                                    <a href="https://screenful.com/tour/timing-screen/?utm_source=modularadmin&utm_campaign=modularadmin">
-                                        <img class="ex-pic" alt="Timing Screen" title="Timing Screen" src='/assets/screenful/screen-timing.png'>
-                                    </a>
-                                    <div class="description">
-                                        <a href="https://screenful.com/tour/timing-screen/?utm_source=modularadmin&utm_campaign=modularadmin">
-                                            <h3 class="title">Track your lead and cycle times</h3>
-                                        </a>
-                                        <ul>
-                                            <li>What is your average lead time for resolving bug/ticket/story?</li>
-                                            <li>How quickly tasks are resolved after work is started?</li>
-                                            <li>Identify bottlenecks in your workflow.</li>
-                                        </ul>
+                    </section>
+                    <section class="section">
+                        <div class="row sameheight-container">
+                            <div class="col-md-12">
+                                <div class="card sameheight-item">
+                                    <div class="card-block">
+                                        <div class="card-title-block">
+                                            <h3 class="title"> Example: Mobile and desktop </h3>
+                                        </div>
+                                        <section class="section">
+                                            <p>Don't want your columns to simply stack in smaller devices? Use the extra small and medium device grid classes by adding <code>.col-*</code>
+                                                <code>.col-md-*</code>to your columns. See the example below for a better idea of how it all works.</p>
+                                            <div class="row">
+                                                <div class="col-12 col-md-8">
+                                                    <div class="box-placeholder">.col-12 .col-md-8</div>
+                                                </div>
+                                                <div class="col-6 col-md-4">
+                                                    <div class="box-placeholder">.col-6 .col-md-4</div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-6 col-md-4">
+                                                    <div class="box-placeholder">.col-6 .col-md-4</div>
+                                                </div>
+                                                <div class="col-6 col-md-4">
+                                                    <div class="box-placeholder">.col-6 .col-md-4</div>
+                                                </div>
+                                                <div class="col-6 col-md-4">
+                                                    <div class="box-placeholder">.col-6 .col-md-4</div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-6">
+                                                    <div class="box-placeholder">.col-6</div>
+                                                </div>
+                                                <div class="col-6">
+                                                    <div class="box-placeholder">.col-6</div>
+                                                </div>
+                                            </div>
+                                        </section>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6 screen-colum">
-                                <div class="screen-item">
-                                    <a href="https://screenful.com/tour/sprint-burndown-chart/?utm_source=modularadmin&utm_campaign=modularadmin">
-                                        <img class="ex-pic" alt="Sprint Burndown" title="Sprint Burndown" src='/assets/screenful/screen-sprint.png'>
-                                    </a>
-                                    <div class="description">
-                                        <a href="https://screenful.com/tour/sprint-burndown-chart/?utm_source=modularadmin&utm_campaign=modularadmin">
-                                            <h3 class="title">Track your sprint progress with a burndown chart</h3>
-                                        </a>
-                                        <ul>
-                                            <li>Are you ahead or behind the target?</li>
-                                            <li>How many tasks are still not started?</li>
-                                            <li>Is your team's velocity stable?</li>
-                                            <li>A better sprint burndown chart for your team.</li>
-                                        </ul>
+                        </div>
+                    </section>
+                    <section class="section">
+                        <div class="row sameheight-container">
+                            <div class="col-md-12">
+                                <div class="card sameheight-item">
+                                    <div class="card-block">
+                                        <div class="card-title-block">
+                                            <h3 class="title"> Example: Mobile, tablet, desktops </h3>
+                                        </div>
+                                        <section class="section">
+                                            <p>Build on the previous example by creating even more dynamic and powerful layouts with tablet <code>.col-sm-*</code>classes.</p>
+                                            <div class="row">
+                                                <div class="col-12 col-sm-6 col-md-8">
+                                                    <div class="box-placeholder">.col-12 .col-sm-6 .col-md-8</div>
+                                                </div>
+                                                <div class="col-6 col-md-4">
+                                                    <div class="box-placeholder">.col-6 .col-md-4</div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-6 col-sm-4">
+                                                    <div class="box-placeholder">.col-6 .col-sm-4</div>
+                                                </div>
+                                                <div class="col-6 col-sm-4">
+                                                    <div class="box-placeholder">.col-6 .col-sm-4</div>
+                                                </div>
+                                                <div class="clearfix visible-xs">
+                                                    <div class="box-placeholder"></div>
+                                                </div>
+                                                <div class="col-6 col-sm-4">
+                                                    <div class="box-placeholder">.col-6 .col-sm-4</div>
+                                                </div>
+                                            </div>
+                                        </section>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6 screen-colum">
-                                <div class="screen-item">
-                                    <a href="https://screenful.com/tour/milestone-burnup-chart/?utm_source=modularadmin&utm_campaign=modularadmin">
-                                        <img class="ex-pic" alt="Milestone Burnup Chart" title="Milestone Burnup Chart" src='/assets/screenful/screen-milestone.png'>
-                                    </a>
-                                    <div class="description">
-                                        <a href="https://screenful.com/tour/milestone-burnup-chart/?utm_source=modularadmin&utm_campaign=modularadmin">
-                                            <h3 class="title">Monitor the progress of your milestones</h3>
-                                        </a>
-                                        <ul>
-                                            <li>How much of work is done vs still todo?</li>
-                                            <li>How scope changes affect the projected delivery dates?</li>
-                                            <li>What is the most likely delivery date based on recent velocity?</li>
-                                        </ul>
+                        </div>
+                    </section>
+                    <section class="section">
+                        <div class="row sameheight-container">
+                            <div class="col-md-12">
+                                <div class="card sameheight-item">
+                                    <div class="card-block">
+                                        <div class="card-title-block">
+                                            <h3 class="title"> Responsive column resets </h3>
+                                        </div>
+                                        <section class="section">
+                                            <p>With the four tiers of grids available you're bound to run into issues where, at certain breakpoints, your columns don't clear quite right as one is taller than the other. To fix that, use a combination of a <code>.clearfix</code>and our <a href="#responsive-utilities">responsive utility classes</a>.</p>
+                                            <div class="row">
+                                                <div class="col-6 col-sm-3">
+                                                    <div class="box-placeholder">.col-6 .col-sm-3 <br>Resize your viewport or check it out on your phone for an example.</div>
+                                                </div>
+                                                <div class="col-6 col-sm-3">
+                                                    <div class="box-placeholder">.col-6 .col-sm-3</div>
+                                                </div>
+                                                <div class="clearfix visible-xs"></div>
+                                                <div class="col-6 col-sm-3">
+                                                    <div class="box-placeholder">.col-6 .col-sm-3</div>
+                                                </div>
+                                                <div class="col-6 col-sm-3">
+                                                    <div class="box-placeholder">.col-6 .col-sm-3</div>
+                                                </div>
+                                            </div>
+                                        </section>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6 screen-colum">
-                                <div class="screen-item">
-                                    <a href="https://screenful.com/tour/task-status-screen/?utm_source=modularadmin&utm_campaign=modularadmin">
-                                        <img class="ex-pic" alt="Task Status" title="Task Status" src='/assets/screenful/screen-task-status.png'>
-                                    </a>
-                                    <div class="description">
-                                        <a href="https://screenful.com/tour/task-status-screen/?utm_source=modularadmin&utm_campaign=modularadmin">
-                                            <h3 class="title">Gain a bird's-eye view on your projects</h3>
-                                        </a>
-                                        <ul>
-                                            <li>Are there any overdue tasks?</li>
-                                            <li>Does everyone has enough work assigned?</li>
-                                            <li>What has been recently completed?</li>
-                                            <li>How many tasks were created or completed within last 7 days?</li>
-                                        </ul>
+                        </div>
+                    </section>
+                    <section class="section">
+                        <div class="row sameheight-container">
+                            <div class="col-md-12">
+                                <div class="card sameheight-item">
+                                    <div class="card-block">
+                                        <div class="card-title-block">
+                                            <h3 class="title"> Offsetting columns </h3>
+                                        </div>
+                                        <section class="section">
+                                            <p>Move columns to the right using <code>.col-md-offset-*</code>classes. These classes increase the left margin of a column by <code>*</code>columns. For example, <code>.col-md-offset-4</code>moves <code>.col-md-4</code>over four columns.</p>
+                                            <div class="row">
+                                                <div class="col-md-4">
+                                                    <div class="box-placeholder">.col-md-4</div>
+                                                </div>
+                                                <div class="col-md-4 col-md-offset-4">
+                                                    <div class="box-placeholder">.col-md-4 .col-md-offset-4</div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-3 col-md-offset-3">
+                                                    <div class="box-placeholder">.col-md-3 .col-md-offset-3</div>
+                                                </div>
+                                                <div class="col-md-3 col-md-offset-3">
+                                                    <div class="box-placeholder">.col-md-3 .col-md-offset-3</div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-6 col-md-offset-3">
+                                                    <div class="box-placeholder">.col-md-6 .col-md-offset-3</div>
+                                                </div>
+                                            </div>
+                                        </section>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6 screen-colum">
-                                <div class="screen-item">
-                                    <a href="https://screenful.com/tour/open-tasks-chart/?utm_source=modularadmin&utm_campaign=modularadmin">
-                                        <img class="ex-pic" alt="Open Tasks chart" title="Open Tasks chart" src='/assets/screenful/screen-open-tasks.png'>
-                                    </a>
-                                    <div class="description">
-                                        <a href="https://screenful.com/tour/open-tasks-chart/?utm_source=modularadmin&utm_campaign=modularadmin">
-                                            <h3 class="title">Track your work in progress</h3>
-                                        </a>
-                                        <ul>
-                                            <li>How many open tasks there are per label/workflow state/assignee?</li>
-                                            <li>How much work is assigned to each individual?</li>
-                                            <li>Is your work piling up?</li>
-                                        </ul>
+                        </div>
+                    </section>
+                    <section class="section">
+                        <div class="row sameheight-container">
+                            <div class="col-md-12">
+                                <div class="card sameheight-item">
+                                    <div class="card-block">
+                                        <div class="card-title-block">
+                                            <h3 class="title"> Nesting columns </h3>
+                                        </div>
+                                        <section class="section">
+                                            <p>To nest your content with the default grid, add a new <code>.row</code>and set of <code>.col-md-*</code>columns within an existing <code>.col-md-*</code>column. Nested rows should include a set of columns that add up to 12.</p>
+                                            <div class="row">
+                                                <div class="col-md-9">
+                                                    <div class="box-placeholder">Level 1: .col-md-9 <div class="row">
+                                                            <div class="col-md-6">
+                                                                <div class="box-placeholder">Level 2: .col-md-6</div>
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <div class="box-placeholder">Level 2: .col-md-6</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6 screen-colum">
-                                <div class="screen-item">
-                                    <a href="https://screenful.com/tour/completed-tasks-chart/?utm_source=modularadmin&utm_campaign=modularadmin">
-                                        <img class="ex-pic" alt="Completed Tasks chart" title="Completed Tasks chart" src='/assets/screenful/screen-completed-tasks.png'>
-                                    </a>
-                                    <div class="description">
-                                        <a href="https://screenful.com/tour/completed-tasks-chart/?utm_source=modularadmin&utm_campaign=modularadmin">
-                                            <h3 class="title">Track your completed work</h3>
-                                        </a>
-                                        <ul>
-                                            <li>How much work did you get done?</li>
-                                            <li>How is your time distributed between different activities?</li>
-                                            <li>What is the trend - are you working more on activities that create value?</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 screen-colum">
-                                <div class="screen-item">
-                                    <a href="https://screenful.com/tour/team-status-screen/?utm_source=modularadmin&utm_campaign=modularadmin">
-                                        <img class="ex-pic" alt="Team Status screen" title="Team Status screen" src='/assets/screenful/screen-team-status.png'>
-                                    </a>
-                                    <div class="description">
-                                        <a href="https://screenful.com/tour/team-status-screen/?utm_source=modularadmin&utm_campaign=modularadmin">
-                                            <h3 class="title">See what each team member is currently working on</h3>
-                                        </a>
-                                        <ul>
-                                            <li>Which tasks are currently in progress?</li>
-                                            <li>Who's working on what?</li>
-                                            <li>What has been recently completed?</li>
-                                            <li>Pick your own lists. </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 screen-colum">
-                                <div class="screen-item">
-                                    <a href="https://screenful.com/blog/introducing-custom-chart-create-any-chart-from-your-task-data/?utm_source=modularadmin&utm_campaign=modularadmin">
-                                        <img class="ex-pic" alt="Custom Chart" title="Custom Chart" src='/assets/screenful/screen-custom-chart.png'>
-                                    </a>
-                                    <div class="description">
-                                        <a href="https://screenful.com/blog/introducing-custom-chart-create-any-chart-from-your-task-data/?utm_source=modularadmin&utm_campaign=modularadmin">
-                                            <h3 class="title">Create custom charts</h3>
-                                        </a>
-                                        <ul>
-                                            <li>Create charts from your task data</li>
-                                            <li>Tasks or story points done, lead & cycle times, pick the metric you want to see</li>
-                                            <li>Group by label, assignee, source board, or by any other property.</li>
-                                        </ul>
+                        </div>
+                    </section>
+                    <section class="section">
+                        <div class="row sameheight-container">
+                            <div class="col-md-12">
+                                <div class="card sameheight-item">
+                                    <div class="card-block">
+                                        <div class="card-title-block">
+                                            <h3 class="title"> Column ordering </h3>
+                                        </div>
+                                        <section class="section">
+                                            <p>Easily change the order of our built-in grid columns with <code>.col-md-push-*</code>and <code>.col-md-pull-*</code>modifier classes.</p>
+                                            <div class="row">
+                                                <div class="col-md-9 col-md-push-3">
+                                                    <div class="box-placeholder">.col-md-9 .col-md-push-3</div>
+                                                </div>
+                                                <div class="col-md-3 col-md-pull-9">
+                                                    <div class="box-placeholder">.col-md-3 .col-md-pull-9</div>
+                                                </div>
+                                            </div>
+                                        </section>
                                     </div>
                                 </div>
                             </div>
@@ -586,7 +695,7 @@
                 </article>
                 <footer class="footer">
                     <div class="footer-block buttons">
-                        <iframe class="footer-github-btn" src="https://ghbtns.com/github-btn.html?user=modularcode&repo=modular-admin-html&type=star&count=true" frameborder="0" scrolling="0" width="140px" height="20px"></iframe>
+                        <iframe class="footer-github-btn" src="https://ghbtns.com/github-btn.php?user=modularcode&repo=modular-admin-html&type=star&count=true" frameborder="0" scrolling="0" width="140px" height="20px"></iframe>
                     </div>
                     <div class="footer-block author">
                         <ul>

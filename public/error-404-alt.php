@@ -45,7 +45,7 @@
                             </div>
                         </div>
                         <br>
-                        <a class="btn btn-primary" href="index.html">
+                        <a class="btn btn-primary" href="index.php">
                             <i class="fa fa-angle-left"></i> Back to Dashboard </a>
                     </div>
                 </div>

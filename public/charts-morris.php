@@ -125,7 +125,7 @@
                                     <a class="dropdown-item" href="#">
                                         <i class="fa fa-gear icon"></i> Settings </a>
                                     <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="login.html">
+                                    <a class="dropdown-item" href="login.php">
                                         <i class="fa fa-power-off icon"></i> Logout </a>
                                 </div>
                             </li>
@@ -148,7 +148,7 @@
                         <nav class="menu">
                             <ul class="sidebar-menu metismenu" id="sidebar-menu">
                                 <li>
-                                    <a href="index.html">
+                                    <a href="index.php">
                                         <i class="fa fa-home"></i> Dashboard </a>
                                 </li>
                                 <li>
@@ -157,41 +157,41 @@
                                     </a>
                                     <ul class="sidebar-nav">
                                         <li>
-                                            <a href="items-list.html"> Items List </a>
+                                            <a href="items-list.php"> Items List </a>
                                         </li>
                                         <li>
-                                            <a href="item-editor.html"> Item Editor </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <i class="fa fa-area-chart"></i> Charts <i class="fa arrow"></i>
-                                    </a>
-                                    <ul class="sidebar-nav">
-                                        <li>
-                                            <a href="charts-flot.html"> Flot Charts </a>
-                                        </li>
-                                        <li>
-                                            <a href="charts-morris.html"> Morris Charts </a>
+                                            <a href="item-editor.php"> Item Editor </a>
                                         </li>
                                     </ul>
                                 </li>
                                 <li class="active open">
                                     <a href="">
-                                        <i class="fa fa-table"></i> Tables <i class="fa arrow"></i>
+                                        <i class="fa fa-area-chart"></i> Charts <i class="fa arrow"></i>
                                     </a>
                                     <ul class="sidebar-nav">
                                         <li>
-                                            <a href="static-tables.html"> Static Tables </a>
+                                            <a href="charts-flot.php"> Flot Charts </a>
                                         </li>
                                         <li class="active">
-                                            <a href="responsive-tables.html"> Responsive Tables </a>
+                                            <a href="charts-morris.php"> Morris Charts </a>
                                         </li>
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="forms.html">
+                                    <a href="">
+                                        <i class="fa fa-table"></i> Tables <i class="fa arrow"></i>
+                                    </a>
+                                    <ul class="sidebar-nav">
+                                        <li>
+                                            <a href="static-tables.php"> Static Tables </a>
+                                        </li>
+                                        <li>
+                                            <a href="responsive-tables.php"> Responsive Tables </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="forms.php">
                                         <i class="fa fa-pencil-square-o"></i> Forms </a>
                                 </li>
                                 <li>
@@ -200,19 +200,19 @@
                                     </a>
                                     <ul class="sidebar-nav">
                                         <li>
-                                            <a href="buttons.html"> Buttons </a>
+                                            <a href="buttons.php"> Buttons </a>
                                         </li>
                                         <li>
-                                            <a href="cards.html"> Cards </a>
+                                            <a href="cards.php"> Cards </a>
                                         </li>
                                         <li>
-                                            <a href="typography.html"> Typography </a>
+                                            <a href="typography.php"> Typography </a>
                                         </li>
                                         <li>
-                                            <a href="icons.html"> Icons </a>
+                                            <a href="icons.php"> Icons </a>
                                         </li>
                                         <li>
-                                            <a href="grid.html"> Grid </a>
+                                            <a href="grid.php"> Grid </a>
                                         </li>
                                     </ul>
                                 </li>
@@ -222,25 +222,25 @@
                                     </a>
                                     <ul class="sidebar-nav">
                                         <li>
-                                            <a href="login.html"> Login </a>
+                                            <a href="login.php"> Login </a>
                                         </li>
                                         <li>
-                                            <a href="signup.html"> Sign Up </a>
+                                            <a href="signup.php"> Sign Up </a>
                                         </li>
                                         <li>
-                                            <a href="reset.html"> Reset </a>
+                                            <a href="reset.php"> Reset </a>
                                         </li>
                                         <li>
-                                            <a href="error-404.html"> Error 404 App </a>
+                                            <a href="error-404.php"> Error 404 App </a>
                                         </li>
                                         <li>
-                                            <a href="error-404-alt.html"> Error 404 Global </a>
+                                            <a href="error-404-alt.php"> Error 404 Global </a>
                                         </li>
                                         <li>
-                                            <a href="error-500.html"> Error 500 App </a>
+                                            <a href="error-500.php"> Error 500 App </a>
                                         </li>
                                         <li>
-                                            <a href="error-500-alt.html"> Error 500 Global </a>
+                                            <a href="error-500-alt.php"> Error 500 Global </a>
                                         </li>
                                     </ul>
                                 </li>
@@ -291,7 +291,7 @@
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="screenful.html">
+                                    <a href="screenful.php">
                                         <i class="fa fa-bar-chart"></i> Agile Metrics <span class="label label-screenful">by Screenful</span>
                                     </a>
                                 </li>
@@ -403,73 +403,61 @@
                 <div class="sidebar-overlay" id="sidebar-overlay"></div>
                 <div class="sidebar-mobile-menu-handle" id="sidebar-mobile-menu-handle"></div>
                 <div class="mobile-menu-handle"></div>
-                <article class="content responsive-tables-page">
+                <article class="content charts-morris-page">
                     <div class="title-block">
-                        <h1 class="title"> Responsive Tables </h1>
-                        <p class="title-description"> When blocks aren't enough </p>
+                        <h3 class="title"> Charts Morris </h3>
+                        <p class="title-description"> List of sample charts with custom colors </p>
                     </div>
                     <section class="section">
                         <div class="row">
-                            <div class="col-md-12">
+                            <div class="col-md-6">
                                 <div class="card">
                                     <div class="card-block">
                                         <div class="card-title-block">
-                                            <h3 class="title"> Responsive simple </h3>
+                                            <h3 class="title"> Area Chart Example </h3>
                                         </div>
                                         <section class="example">
-                                            <div class="table-responsive">
-                                                <table class="table table-striped table-bordered table-hover">
-                                                    <thead>
-                                                        <tr>
-                                                            <th>#</th>
-                                                            <th>Table heading</th>
-                                                            <th>Table heading</th>
-                                                            <th>Table heading</th>
-                                                            <th>Table heading</th>
-                                                            <th>Table heading</th>
-                                                            <th>Table heading</th>
-                                                        </tr>
-                                                    </thead>
-                                                    <tbody>
-                                                        <tr>
-                                                            <td>Table cell</td>
-                                                            <td>Table cell</td>
-                                                            <td>Table cell</td>
-                                                            <td>Table cell</td>
-                                                            <td>Table cell</td>
-                                                            <td>Table cell</td>
-                                                            <td>Table cell</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>Table cell</td>
-                                                            <td>Table cell</td>
-                                                            <td>Table cell</td>
-                                                            <td>Table cell</td>
-                                                            <td>Table cell</td>
-                                                            <td>Table cell</td>
-                                                            <td>Table cell</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>Table cell</td>
-                                                            <td>Table cell</td>
-                                                            <td>Table cell</td>
-                                                            <td>Table cell</td>
-                                                            <td>Table cell</td>
-                                                            <td>Table cell</td>
-                                                            <td>Table cell</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td>Table cell</td>
-                                                            <td>Table cell</td>
-                                                            <td>Table cell</td>
-                                                            <td>Table cell</td>
-                                                            <td>Table cell</td>
-                                                            <td>Table cell</td>
-                                                            <td>Table cell</td>
-                                                        </tr>
-                                                    </tbody>
-                                                </table>
-                                            </div>
+                                            <div id="morris-area-chart"></div>
+                                        </section>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card">
+                                    <div class="card-block">
+                                        <div class="card-title-block">
+                                            <h3 class="title"> Bar Chart Example </h3>
+                                        </div>
+                                        <section class="example">
+                                            <div id="morris-bar-chart"></div>
+                                        </section>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="section">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="card">
+                                    <div class="card-block">
+                                        <div class="card-title-block">
+                                            <h3 class="title"> Line Chart Example </h3>
+                                        </div>
+                                        <section class="example">
+                                            <div id="morris-line-chart"></div>
+                                        </section>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card">
+                                    <div class="card-block">
+                                        <div class="card-title-block">
+                                            <h3 class="title"> Donut Chart Example </h3>
+                                        </div>
+                                        <section class="example">
+                                            <div id="morris-donut-chart"></div>
                                         </section>
                                     </div>
                                 </div>
@@ -482,108 +470,10 @@
                                 <div class="card">
                                     <div class="card-block">
                                         <div class="card-title-block">
-                                            <h3 class="title"> Responsive flip-scroll </h3>
+                                            <h3 class="title"> Simple one line Example </h3>
                                         </div>
                                         <section class="example">
-                                            <div class="table-flip-scroll">
-                                                <table class="table table-striped table-bordered table-hover flip-content">
-                                                    <thead class="flip-header">
-                                                        <tr>
-                                                            <th>Rendering engine</th>
-                                                            <th>Browser</th>
-                                                            <th>Platform(s)</th>
-                                                            <th>Engine version</th>
-                                                            <th>CSS grade</th>
-                                                        </tr>
-                                                    </thead>
-                                                    <tbody>
-                                                        <tr class="odd gradeX">
-                                                            <td>Trident</td>
-                                                            <td>Internet Explorer 4.0</td>
-                                                            <td>Win 95+</td>
-                                                            <td class="center">4</td>
-                                                            <td class="center">X</td>
-                                                        </tr>
-                                                        <tr class="even gradeC">
-                                                            <td>Trident</td>
-                                                            <td>Internet Explorer 5.0</td>
-                                                            <td>Win 95+</td>
-                                                            <td class="center">5</td>
-                                                            <td class="center">C</td>
-                                                        </tr>
-                                                        <tr class="odd gradeA">
-                                                            <td>Trident</td>
-                                                            <td>Internet Explorer 5.5</td>
-                                                            <td>Win 95+</td>
-                                                            <td class="center">5.5</td>
-                                                            <td class="center">A</td>
-                                                        </tr>
-                                                        <tr class="even gradeA">
-                                                            <td>Trident</td>
-                                                            <td>Internet Explorer 6</td>
-                                                            <td>Win 98+</td>
-                                                            <td class="center">6</td>
-                                                            <td class="center">A</td>
-                                                        </tr>
-                                                        <tr class="odd gradeA">
-                                                            <td>Trident</td>
-                                                            <td>Internet Explorer 7</td>
-                                                            <td>Win XP SP2+</td>
-                                                            <td class="center">7</td>
-                                                            <td class="center">A</td>
-                                                        </tr>
-                                                        <tr class="even gradeA">
-                                                            <td>Trident</td>
-                                                            <td>AOL browser (AOL desktop)</td>
-                                                            <td>Win XP</td>
-                                                            <td class="center">6</td>
-                                                            <td class="center">A</td>
-                                                        </tr>
-                                                        <tr class="gradeA">
-                                                            <td>Gecko</td>
-                                                            <td>Firefox 1.0</td>
-                                                            <td>Win 98+ / OSX.2+</td>
-                                                            <td class="center">1.7</td>
-                                                            <td class="center">A</td>
-                                                        </tr>
-                                                        <tr class="gradeA">
-                                                            <td>Gecko</td>
-                                                            <td>Firefox 1.5</td>
-                                                            <td>Win 98+ / OSX.2+</td>
-                                                            <td class="center">1.8</td>
-                                                            <td class="center">A</td>
-                                                        </tr>
-                                                        <tr class="gradeA">
-                                                            <td>Gecko</td>
-                                                            <td>Firefox 2.0</td>
-                                                            <td>Win 98+ / OSX.2+</td>
-                                                            <td class="center">1.8</td>
-                                                            <td class="center">A</td>
-                                                        </tr>
-                                                        <tr class="gradeA">
-                                                            <td>Gecko</td>
-                                                            <td>Firefox 3.0</td>
-                                                            <td>Win 2k+ / OSX.3+</td>
-                                                            <td class="center">1.9</td>
-                                                            <td class="center">A</td>
-                                                        </tr>
-                                                        <tr class="gradeA">
-                                                            <td>Gecko</td>
-                                                            <td>Camino 1.0</td>
-                                                            <td>OSX.2+</td>
-                                                            <td class="center">1.8</td>
-                                                            <td class="center">A</td>
-                                                        </tr>
-                                                        <tr class="gradeA">
-                                                            <td>Gecko</td>
-                                                            <td>Camino 1.5</td>
-                                                            <td>OSX.3+</td>
-                                                            <td class="center">1.8</td>
-                                                            <td class="center">A</td>
-                                                        </tr>
-                                                    </tbody>
-                                                </table>
-                                            </div>
+                                            <div id="morris-one-line-chart"></div>
                                         </section>
                                     </div>
                                 </div>
@@ -593,7 +483,7 @@
                 </article>
                 <footer class="footer">
                     <div class="footer-block buttons">
-                        <iframe class="footer-github-btn" src="https://ghbtns.com/github-btn.html?user=modularcode&repo=modular-admin-html&type=star&count=true" frameborder="0" scrolling="0" width="140px" height="20px"></iframe>
+                        <iframe class="footer-github-btn" src="https://ghbtns.com/github-btn.php?user=modularcode&repo=modular-admin-html&type=star&count=true" frameborder="0" scrolling="0" width="140px" height="20px"></iframe>
                     </div>
                     <div class="footer-block author">
                         <ul>

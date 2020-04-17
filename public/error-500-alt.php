@@ -34,7 +34,7 @@
                     </div>
                     <div class="error-container">
                         <p>Why not try refreshing your page? or you can contact support</p>
-                        <a class="btn btn-primary" href="index.html">
+                        <a class="btn btn-primary" href="index.php">
                             <i class="fa fa-angle-left"></i> Back to Dashboard </a>
                     </div>
                 </div>

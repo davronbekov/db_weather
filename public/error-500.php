@@ -125,7 +125,7 @@
                                     <a class="dropdown-item" href="#">
                                         <i class="fa fa-gear icon"></i> Settings </a>
                                     <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="login.html">
+                                    <a class="dropdown-item" href="login.php">
                                         <i class="fa fa-power-off icon"></i> Logout </a>
                                 </div>
                             </li>
@@ -148,7 +148,7 @@
                         <nav class="menu">
                             <ul class="sidebar-menu metismenu" id="sidebar-menu">
                                 <li>
-                                    <a href="index.html">
+                                    <a href="index.php">
                                         <i class="fa fa-home"></i> Dashboard </a>
                                 </li>
                                 <li>
@@ -157,10 +157,10 @@
                                     </a>
                                     <ul class="sidebar-nav">
                                         <li>
-                                            <a href="items-list.html"> Items List </a>
+                                            <a href="items-list.php"> Items List </a>
                                         </li>
                                         <li>
-                                            <a href="item-editor.html"> Item Editor </a>
+                                            <a href="item-editor.php"> Item Editor </a>
                                         </li>
                                     </ul>
                                 </li>
@@ -170,10 +170,10 @@
                                     </a>
                                     <ul class="sidebar-nav">
                                         <li>
-                                            <a href="charts-flot.html"> Flot Charts </a>
+                                            <a href="charts-flot.php"> Flot Charts </a>
                                         </li>
                                         <li>
-                                            <a href="charts-morris.html"> Morris Charts </a>
+                                            <a href="charts-morris.php"> Morris Charts </a>
                                         </li>
                                     </ul>
                                 </li>
@@ -183,64 +183,64 @@
                                     </a>
                                     <ul class="sidebar-nav">
                                         <li>
-                                            <a href="static-tables.html"> Static Tables </a>
+                                            <a href="static-tables.php"> Static Tables </a>
                                         </li>
                                         <li>
-                                            <a href="responsive-tables.html"> Responsive Tables </a>
+                                            <a href="responsive-tables.php"> Responsive Tables </a>
                                         </li>
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="forms.html">
+                                    <a href="forms.php">
                                         <i class="fa fa-pencil-square-o"></i> Forms </a>
                                 </li>
-                                <li class="active open">
+                                <li>
                                     <a href="">
                                         <i class="fa fa-desktop"></i> UI Elements <i class="fa arrow"></i>
                                     </a>
                                     <ul class="sidebar-nav">
                                         <li>
-                                            <a href="buttons.html"> Buttons </a>
+                                            <a href="buttons.php"> Buttons </a>
                                         </li>
                                         <li>
-                                            <a href="cards.html"> Cards </a>
+                                            <a href="cards.php"> Cards </a>
                                         </li>
                                         <li>
-                                            <a href="typography.html"> Typography </a>
+                                            <a href="typography.php"> Typography </a>
                                         </li>
                                         <li>
-                                            <a href="icons.html"> Icons </a>
+                                            <a href="icons.php"> Icons </a>
                                         </li>
-                                        <li class="active">
-                                            <a href="grid.html"> Grid </a>
+                                        <li>
+                                            <a href="grid.php"> Grid </a>
                                         </li>
                                     </ul>
                                 </li>
-                                <li>
+                                <li class="active open">
                                     <a href="">
                                         <i class="fa fa-file-text-o"></i> Pages <i class="fa arrow"></i>
                                     </a>
                                     <ul class="sidebar-nav">
                                         <li>
-                                            <a href="login.html"> Login </a>
+                                            <a href="login.php"> Login </a>
                                         </li>
                                         <li>
-                                            <a href="signup.html"> Sign Up </a>
+                                            <a href="signup.php"> Sign Up </a>
                                         </li>
                                         <li>
-                                            <a href="reset.html"> Reset </a>
+                                            <a href="reset.php"> Reset </a>
                                         </li>
                                         <li>
-                                            <a href="error-404.html"> Error 404 App </a>
+                                            <a href="error-404.php"> Error 404 App </a>
                                         </li>
                                         <li>
-                                            <a href="error-404-alt.html"> Error 404 Global </a>
+                                            <a href="error-404-alt.php"> Error 404 Global </a>
+                                        </li>
+                                        <li class="active">
+                                            <a href="error-500.php"> Error 500 App </a>
                                         </li>
                                         <li>
-                                            <a href="error-500.html"> Error 500 App </a>
-                                        </li>
-                                        <li>
-                                            <a href="error-500-alt.html"> Error 500 Global </a>
+                                            <a href="error-500-alt.php"> Error 500 Global </a>
                                         </li>
                                     </ul>
                                 </li>
@@ -291,7 +291,7 @@
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="screenful.html">
+                                    <a href="screenful.php">
                                         <i class="fa fa-bar-chart"></i> Agile Metrics <span class="label label-screenful">by Screenful</span>
                                     </a>
                                 </li>
@@ -403,299 +403,24 @@
                 <div class="sidebar-overlay" id="sidebar-overlay"></div>
                 <div class="sidebar-mobile-menu-handle" id="sidebar-mobile-menu-handle"></div>
                 <div class="mobile-menu-handle"></div>
-                <article class="content grid-page">
-                    <div class="title-block">
-                        <h3 class="title"> Grid </h3>
-                        <p class="title-description"> Grid elements </p>
-                    </div>
+                <article class="content error-500-page">
                     <section class="section">
-                        <div class="row sameheight-container">
-                            <div class="col-md-12">
-                                <div class="card sameheight-item">
-                                    <div class="card-block">
-                                        <div class="card-title-block">
-                                            <h3 class="title"> Example: Stacked-to-horizontal </h3>
-                                        </div>
-                                        <section class="section">
-                                            <p>Using a single set of <code>.col-md-*</code> grid classes, you can create a default grid system that starts out stacked on mobile devices and tablet devices (the extra small to small range) before becoming horizontal on desktop (medium) devices. Place grid columns in any <code>.row</code>.</p>
-                                            <div class="row">
-                                                <div class="col-md-1">
-                                                    <div class="box-placeholder">.col-md-1</div>
-                                                </div>
-                                                <div class="col-md-1">
-                                                    <div class="box-placeholder">.col-md-1</div>
-                                                </div>
-                                                <div class="col-md-1">
-                                                    <div class="box-placeholder">.col-md-1</div>
-                                                </div>
-                                                <div class="col-md-1">
-                                                    <div class="box-placeholder">.col-md-1</div>
-                                                </div>
-                                                <div class="col-md-1">
-                                                    <div class="box-placeholder">.col-md-1</div>
-                                                </div>
-                                                <div class="col-md-1">
-                                                    <div class="box-placeholder">.col-md-1</div>
-                                                </div>
-                                                <div class="col-md-1">
-                                                    <div class="box-placeholder">.col-md-1</div>
-                                                </div>
-                                                <div class="col-md-1">
-                                                    <div class="box-placeholder">.col-md-1</div>
-                                                </div>
-                                                <div class="col-md-1">
-                                                    <div class="box-placeholder">.col-md-1</div>
-                                                </div>
-                                                <div class="col-md-1">
-                                                    <div class="box-placeholder">.col-md-1</div>
-                                                </div>
-                                                <div class="col-md-1">
-                                                    <div class="box-placeholder">.col-md-1</div>
-                                                </div>
-                                                <div class="col-md-1">
-                                                    <div class="box-placeholder">.col-md-1</div>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-md-8">
-                                                    <div class="box-placeholder">.col-md-8</div>
-                                                </div>
-                                                <div class="col-md-4">
-                                                    <div class="box-placeholder">.col-md-4</div>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-md-4">
-                                                    <div class="box-placeholder">.col-md-4</div>
-                                                </div>
-                                                <div class="col-md-4">
-                                                    <div class="box-placeholder">.col-md-4</div>
-                                                </div>
-                                                <div class="col-md-4">
-                                                    <div class="box-placeholder">.col-md-4</div>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-md-6">
-                                                    <div class="box-placeholder">.col-md-6</div>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <div class="box-placeholder">.col-md-6</div>
-                                                </div>
-                                            </div>
-                                        </section>
-                                    </div>
-                                </div>
+                        <div class="error-card">
+                            <div class="error-title-block">
+                                <h1 class="error-title">500</h1>
+                                <h2 class="error-sub-title"> Internal Server Error. </h2>
                             </div>
-                        </div>
-                    </section>
-                    <section class="section">
-                        <div class="row sameheight-container">
-                            <div class="col-md-12">
-                                <div class="card sameheight-item">
-                                    <div class="card-block">
-                                        <div class="card-title-block">
-                                            <h3 class="title"> Example: Mobile and desktop </h3>
-                                        </div>
-                                        <section class="section">
-                                            <p>Don't want your columns to simply stack in smaller devices? Use the extra small and medium device grid classes by adding <code>.col-*</code>
-                                                <code>.col-md-*</code>to your columns. See the example below for a better idea of how it all works.</p>
-                                            <div class="row">
-                                                <div class="col-12 col-md-8">
-                                                    <div class="box-placeholder">.col-12 .col-md-8</div>
-                                                </div>
-                                                <div class="col-6 col-md-4">
-                                                    <div class="box-placeholder">.col-6 .col-md-4</div>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-6 col-md-4">
-                                                    <div class="box-placeholder">.col-6 .col-md-4</div>
-                                                </div>
-                                                <div class="col-6 col-md-4">
-                                                    <div class="box-placeholder">.col-6 .col-md-4</div>
-                                                </div>
-                                                <div class="col-6 col-md-4">
-                                                    <div class="box-placeholder">.col-6 .col-md-4</div>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-6">
-                                                    <div class="box-placeholder">.col-6</div>
-                                                </div>
-                                                <div class="col-6">
-                                                    <div class="box-placeholder">.col-6</div>
-                                                </div>
-                                            </div>
-                                        </section>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    <section class="section">
-                        <div class="row sameheight-container">
-                            <div class="col-md-12">
-                                <div class="card sameheight-item">
-                                    <div class="card-block">
-                                        <div class="card-title-block">
-                                            <h3 class="title"> Example: Mobile, tablet, desktops </h3>
-                                        </div>
-                                        <section class="section">
-                                            <p>Build on the previous example by creating even more dynamic and powerful layouts with tablet <code>.col-sm-*</code>classes.</p>
-                                            <div class="row">
-                                                <div class="col-12 col-sm-6 col-md-8">
-                                                    <div class="box-placeholder">.col-12 .col-sm-6 .col-md-8</div>
-                                                </div>
-                                                <div class="col-6 col-md-4">
-                                                    <div class="box-placeholder">.col-6 .col-md-4</div>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-6 col-sm-4">
-                                                    <div class="box-placeholder">.col-6 .col-sm-4</div>
-                                                </div>
-                                                <div class="col-6 col-sm-4">
-                                                    <div class="box-placeholder">.col-6 .col-sm-4</div>
-                                                </div>
-                                                <div class="clearfix visible-xs">
-                                                    <div class="box-placeholder"></div>
-                                                </div>
-                                                <div class="col-6 col-sm-4">
-                                                    <div class="box-placeholder">.col-6 .col-sm-4</div>
-                                                </div>
-                                            </div>
-                                        </section>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    <section class="section">
-                        <div class="row sameheight-container">
-                            <div class="col-md-12">
-                                <div class="card sameheight-item">
-                                    <div class="card-block">
-                                        <div class="card-title-block">
-                                            <h3 class="title"> Responsive column resets </h3>
-                                        </div>
-                                        <section class="section">
-                                            <p>With the four tiers of grids available you're bound to run into issues where, at certain breakpoints, your columns don't clear quite right as one is taller than the other. To fix that, use a combination of a <code>.clearfix</code>and our <a href="#responsive-utilities">responsive utility classes</a>.</p>
-                                            <div class="row">
-                                                <div class="col-6 col-sm-3">
-                                                    <div class="box-placeholder">.col-6 .col-sm-3 <br>Resize your viewport or check it out on your phone for an example.</div>
-                                                </div>
-                                                <div class="col-6 col-sm-3">
-                                                    <div class="box-placeholder">.col-6 .col-sm-3</div>
-                                                </div>
-                                                <div class="clearfix visible-xs"></div>
-                                                <div class="col-6 col-sm-3">
-                                                    <div class="box-placeholder">.col-6 .col-sm-3</div>
-                                                </div>
-                                                <div class="col-6 col-sm-3">
-                                                    <div class="box-placeholder">.col-6 .col-sm-3</div>
-                                                </div>
-                                            </div>
-                                        </section>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    <section class="section">
-                        <div class="row sameheight-container">
-                            <div class="col-md-12">
-                                <div class="card sameheight-item">
-                                    <div class="card-block">
-                                        <div class="card-title-block">
-                                            <h3 class="title"> Offsetting columns </h3>
-                                        </div>
-                                        <section class="section">
-                                            <p>Move columns to the right using <code>.col-md-offset-*</code>classes. These classes increase the left margin of a column by <code>*</code>columns. For example, <code>.col-md-offset-4</code>moves <code>.col-md-4</code>over four columns.</p>
-                                            <div class="row">
-                                                <div class="col-md-4">
-                                                    <div class="box-placeholder">.col-md-4</div>
-                                                </div>
-                                                <div class="col-md-4 col-md-offset-4">
-                                                    <div class="box-placeholder">.col-md-4 .col-md-offset-4</div>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-md-3 col-md-offset-3">
-                                                    <div class="box-placeholder">.col-md-3 .col-md-offset-3</div>
-                                                </div>
-                                                <div class="col-md-3 col-md-offset-3">
-                                                    <div class="box-placeholder">.col-md-3 .col-md-offset-3</div>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-md-6 col-md-offset-3">
-                                                    <div class="box-placeholder">.col-md-6 .col-md-offset-3</div>
-                                                </div>
-                                            </div>
-                                        </section>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    <section class="section">
-                        <div class="row sameheight-container">
-                            <div class="col-md-12">
-                                <div class="card sameheight-item">
-                                    <div class="card-block">
-                                        <div class="card-title-block">
-                                            <h3 class="title"> Nesting columns </h3>
-                                        </div>
-                                        <section class="section">
-                                            <p>To nest your content with the default grid, add a new <code>.row</code>and set of <code>.col-md-*</code>columns within an existing <code>.col-md-*</code>column. Nested rows should include a set of columns that add up to 12.</p>
-                                            <div class="row">
-                                                <div class="col-md-9">
-                                                    <div class="box-placeholder">Level 1: .col-md-9 <div class="row">
-                                                            <div class="col-md-6">
-                                                                <div class="box-placeholder">Level 2: .col-md-6</div>
-                                                            </div>
-                                                            <div class="col-md-6">
-                                                                <div class="box-placeholder">Level 2: .col-md-6</div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </section>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    <section class="section">
-                        <div class="row sameheight-container">
-                            <div class="col-md-12">
-                                <div class="card sameheight-item">
-                                    <div class="card-block">
-                                        <div class="card-title-block">
-                                            <h3 class="title"> Column ordering </h3>
-                                        </div>
-                                        <section class="section">
-                                            <p>Easily change the order of our built-in grid columns with <code>.col-md-push-*</code>and <code>.col-md-pull-*</code>modifier classes.</p>
-                                            <div class="row">
-                                                <div class="col-md-9 col-md-push-3">
-                                                    <div class="box-placeholder">.col-md-9 .col-md-push-3</div>
-                                                </div>
-                                                <div class="col-md-3 col-md-pull-9">
-                                                    <div class="box-placeholder">.col-md-3 .col-md-pull-9</div>
-                                                </div>
-                                            </div>
-                                        </section>
-                                    </div>
-                                </div>
+                            <div class="error-container">
+                                <p>Why not try refreshing your page? or you can contact support</p>
+                                <a class="btn btn-primary" href="index.php">
+                                    <i class="fa fa-angle-left"></i> Back to Dashboard </a>
                             </div>
                         </div>
                     </section>
                 </article>
                 <footer class="footer">
                     <div class="footer-block buttons">
-                        <iframe class="footer-github-btn" src="https://ghbtns.com/github-btn.html?user=modularcode&repo=modular-admin-html&type=star&count=true" frameborder="0" scrolling="0" width="140px" height="20px"></iframe>
+                        <iframe class="footer-github-btn" src="https://ghbtns.com/github-btn.php?user=modularcode&repo=modular-admin-html&type=star&count=true" frameborder="0" scrolling="0" width="140px" height="20px"></iframe>
                     </div>
                     <div class="footer-block author">
                         <ul>

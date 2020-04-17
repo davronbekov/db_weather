@@ -40,51 +40,34 @@
                         </h1>
                     </header>
                     <div class="auth-content">
-                        <p class="text-center">SIGNUP TO GET INSTANT ACCESS</p>
-                        <form id="signup-form" action="/index.html" method="GET" novalidate="">
+                        <p class="text-center">LOGIN TO CONTINUE</p>
+                        <form id="login-form" action="/index.php" method="GET" novalidate="">
                             <div class="form-group">
-                                <label for="firstname">Name</label>
-                                <div class="row">
-                                    <div class="col-sm-6">
-                                        <input type="text" class="form-control underlined" name="firstname" id="firstname" placeholder="Enter firstname" required="">
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <input type="text" class="form-control underlined" name="lastname" id="lastname" placeholder="Enter lastname" required="">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label for="email">Email</label>
-                                <input type="email" class="form-control underlined" name="email" id="email" placeholder="Enter email address" required="">
+                                <label for="username">Username</label>
+                                <input type="email" class="form-control underlined" name="username" id="username" placeholder="Your email address" required>
                             </div>
                             <div class="form-group">
                                 <label for="password">Password</label>
-                                <div class="row">
-                                    <div class="col-sm-6">
-                                        <input type="password" class="form-control underlined" name="password" id="password" placeholder="Enter password" required="">
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <input type="password" class="form-control underlined" name="retype_password" id="retype_password" placeholder="Re-type password" required="">
-                                    </div>
-                                </div>
+                                <input type="password" class="form-control underlined" name="password" id="password" placeholder="Your password" required>
                             </div>
                             <div class="form-group">
-                                <label for="agree">
-                                    <input class="checkbox" name="agree" id="agree" type="checkbox" required="">
-                                    <span>Agree the terms and <a href="#">policy</a></span>
+                                <label for="remember">
+                                    <input class="checkbox" id="remember" type="checkbox">
+                                    <span>Remember me</span>
                                 </label>
+                                <a href="reset.php" class="forgot-btn pull-right">Forgot password?</a>
                             </div>
                             <div class="form-group">
-                                <button type="submit" class="btn btn-block btn-primary">Sign Up</button>
+                                <button type="submit" class="btn btn-block btn-primary">Login</button>
                             </div>
                             <div class="form-group">
-                                <p class="text-muted text-center">Already have an account? <a href="login.html">Login</a></p>
+                                <p class="text-muted text-center">Do not have an account? <a href="signup.php">Sign Up</a></p>
                             </div>
                         </form>
                     </div>
                 </div>
                 <div class="text-center">
-                    <a href="index.html" class="btn btn-secondary btn-sm">
+                    <a href="index.php" class="btn btn-secondary btn-sm">
                         <i class="fa fa-arrow-left"></i> Back to dashboard </a>
                 </div>
             </div>
