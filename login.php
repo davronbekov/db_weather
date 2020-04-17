@@ -19,11 +19,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $errorClass = "is-invalid";
     }
 }
-
-//if ($name == "davron" && password == "12345") {
-//    setcookie("")
-//  }
-
 ?>
 <html>
 <head>

@@ -5,11 +5,6 @@ use Noodlehaus\Config;
 require 'vendor/autoload.php';
 
 class DB{
-    // Конфигурация базы данных
-    const  HOSTNAME = "localhost:3306";
-    const  DBNAME = "db_weather";
-    const  USERNAME = "root";
-    const  PASSWORD = "tiger";
 
     public static $db;
     private static $j;
