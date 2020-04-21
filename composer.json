@@ -10,6 +10,7 @@
     ],
     "require": {
         "intervention/image": "^2.5",
-        "hassankhan/config": "^2.1"
+        "hassankhan/config": "^2.1",
+      "ext-mysqli": "*"
     }
 }

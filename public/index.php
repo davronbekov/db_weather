@@ -1,3 +1,8 @@
+<?php
+include '../db.php';
+
+$result = DB::query("SELECT * FROM USER",[]);
+?>
 <!doctype html>
 <html class="no-js" lang="en">
     <head>

@@ -1,3 +1,6 @@
+<?php
+include '../db.php';
+?>
 <!doctype html>
 <html class="no-js" lang="en">
     <head>
@@ -408,12 +411,18 @@
                         <h3 class="title"> Add new item <span class="sparkline bar" data-type="bar"></span>
                         </h3>
                     </div>
-                    <form name="item">
+                    <form name="item" action="insert.php" method="post">
                         <div class="card card-block">
                             <div class="form-group row">
-                                <label class="col-sm-2 form-control-label text-xs-right"> Name: </label>
+                                <label class="col-sm-2 form-control-label text-xs-right"> Login: </label>
                                 <div class="col-sm-10">
-                                    <input type="text" class="form-control boxed" placeholder="">
+                                    <input type="text" class="form-control boxed" name="login" placeholder="">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-sm-2 form-control-label text-xs-right"> Email: </label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control boxed" name="email" placeholder="">
                                 </div>
                             </div>
                             <div class="form-group row">
