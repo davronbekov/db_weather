@@ -1,18 +1,15 @@
 <?php
 
-//namespace alphazet\main;
+namespace vendor\libs;
+
+use PDO;
 
 class DB{
 	// Конфигурация базы данных
      const  HOSTNAME = "localhost:3306";
      const  DBNAME = "db_weather";
      const  USERNAME = "root";
-     const  PASSWORD = "tiger";
-
-    //const  HOSTNAME = "localhost:3306";
-    //const  DBNAME = "iutimetable";
-    //const  USERNAME = "root";
-    //const  PASSWORD = "";
+     const  PASSWORD = "";
 
     public static $db;
     private static $j;
@@ -53,5 +50,3 @@ class DB{
         return  $dbres;
     }
 }
-//    session_start();
-?>
