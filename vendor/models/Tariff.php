@@ -2,8 +2,8 @@
 /**
  * Created by Netco Telecom.
  * User: Otabek
- * Date: 01-May-20
- * Time: 10:54 PM
+ * Date: 02-May-20
+ * Time: 11:36 AM
  */
 
 namespace vendor\models;
@@ -11,22 +11,19 @@ namespace vendor\models;
 use vendor\libs\DB;
 
 /**
- * Class Person
+ * Class Tariff
  * @package vendor\models
- * @property String $pname_first
- * @property String $pname_middle
- * @property String $pname_last
- * @property String $private_phone
- * @property String $card_number
- * @property String $card_bank_id
- * @property String $login
+ * @property String $id
+ * @property int $const
+ * @property int $duration
+ * @property String $description
  */
-class Person
+class Tariff
 {
-    public static $table = 'person';
+    public static $table = 'tariff';
 
     public static $fillable = [
-        'pname_first', 'pname_middle', 'pname_last', 'private_phone', 'card_number', 'card_bank_id', 'login'
+        'id', 'cost', 'duration', 'description'
     ];
 
     public static function getItem($data = []){
@@ -130,4 +127,22 @@ class Person
 
         return $item->fetch();
     }
+
+    public static function getItems($filter = []){
+        $query = 'SELECT * FROM `'.self::$table.'` WHERE 1=1';
+
+        $queryValues = [];
+
+        foreach (self::$fillable as $attr){
+            if(isset($filter[$attr])){
+                $query .= ' and `'.$attr.'` like ?';
+                $queryValues[] = $filter[$attr];
+            }
+        }
+
+        $item = DB::query($query, $queryValues);
+
+        return $item->fetchAll();
+    }
+
 }

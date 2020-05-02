@@ -94,4 +94,75 @@ class User
 
         return $item->fetch();
     }
+
+    public static function insertItem($data = []){
+        $query = 'INSERT INTO `'.self::$table.'`(';
+
+        $queryValues = [];
+
+        $counter = 0;
+        foreach (self::$fillable as $attr){
+            if(isset($data[$attr])){
+                $query .= '`'.$attr.'`';
+                $queryValues[] = $data[$attr];
+
+                if(count($data) > ++$counter){
+                    $query .= ',';
+                }
+            }
+        }
+
+        $query .= ') VALUES (';
+
+        $counter = 0;
+        foreach (self::$fillable as $attr){
+            if(isset($data[$attr])){
+                $query .= '?';
+
+                if(count($data) > ++$counter){
+                    $query .= ',';
+                }
+            }
+        }
+
+        $query .= ')';
+
+        $item = DB::query($query, $queryValues);
+
+        return $item->fetch();
+    }
+
+    public static function getItems($filter = []){
+        $query = 'SELECT * FROM `'.self::$table.'` WHERE 1=1';
+
+        $queryValues = [];
+
+        foreach (self::$fillable as $attr){
+            if(isset($filter[$attr])){
+                $query .= ' and `'.$attr.'` like ?';
+                $queryValues[] = $filter[$attr];
+            }
+        }
+
+        $item = DB::query($query, $queryValues);
+
+        return $item->fetchAll();
+    }
+
+    public static function deleteItem($data = []){
+        $query = 'DELETE FROM `'.self::$table.'` WHERE 1=1';
+
+        $queryValues = [];
+
+        foreach (self::$fillable as $attr){
+            if(isset($data[$attr])){
+                $query .= ' and `'.$attr.'` like ?';
+                $queryValues[] = $data[$attr];
+            }
+        }
+
+        $item = DB::query($query, $queryValues);
+
+        return $item->fetch();
+    }
 }

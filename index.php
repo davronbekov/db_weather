@@ -45,7 +45,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>DB Weather</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 <body>
@@ -77,7 +77,7 @@
             <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
         </div>
 
-        <p class="mt-5 mb-3 text-muted">© TEAM 3</p>
+        <p class="mt-5 mb-3 text-muted">© DBAD TEAM 3</p>
     </form>
 </div>
 </body>
