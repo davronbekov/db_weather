@@ -7,27 +7,36 @@
  */
 
 
-require '../../../autoload.php';
+    require '../../../autoload.php';
 
-use vendor\models\Country;
+    use vendor\models\Map;
+    use vendor\models\Provides;
+    use vendor\models\Service;
 
-$errorClass = [
-    'country_name' => '',
-];
+    $errorClass = [
+        'map_id' => '',
+        'description' => '',
+    ];
 
-$country = Country::getItem(['country_name' => $_GET['country_name']]);
+    if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+        $map_id = uniqid();
 
-    Country::updateItem([
-        'country_name' => $_POST['country_name'],
-    ], [
-        'country_name' => $_GET['country_name'],
-    ]);
+        Map::insertItem([
+            'map_id' => $map_id,
+            'description' => $_POST['description'],
+        ]);
 
-    header("Location: /db_weather/user/admin/country/list.php");
-    exit();
-}
+        foreach ($_POST['provides'] as $service){
+            Provides::insertItem([
+                'map_id' => $map_id,
+                'name' => $service,
+            ]);
+        }
+
+    }
+
+    $services = Service::getItems();
 
 ?>
 
@@ -56,18 +65,29 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         <article class="content item-editor-page">
             <div class="title-block">
-                <h3 class="title"> Edit Country </h3>
+                <h3 class="title"> Add new map </h3>
             </div>
 
             <form method="post">
                 <div class="card card-block">
 
                     <div class="form-group row justify-content-center">
-                        <label class="col-sm-2 form-control-label text-xs-right"> Name: </label>
+                        <label class="col-sm-2 form-control-label text-xs-right"> Description: </label>
                         <div class="col-sm-5">
-                            <input type="text" class="form-control boxed <?= $errorClass['country_name'] ?>" name="country_name" placeholder="Uzbekistan" required value="<?= $country['country_name'];?>">
-                            <div class="invalid-feedback">Country already exists </div>
+                            <input type="text" class="form-control boxed <?= $errorClass['description'] ?>" name="description" placeholder="description" required>
                         </div>
+                    </div>
+
+                    <div class="form-group row justify-content-center">
+                        <label class="col-sm-2 form-control-label text-xs-right"> Services: </label>
+                        <select class="w-50" name="provides[]" multiple>
+                            <?php
+                                foreach ($services as $service){ ?>
+                                    <option value="<?= $service['name']?>"><?= $service['name']?></option>
+                            <?php
+                                }
+                            ?>
+                        </select>
                     </div>
 
                     <div class="form-group row justify-content-center">

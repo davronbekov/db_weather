@@ -47,6 +47,18 @@
                         Countries
                     </a>
                 </li>
+                <li>
+                    <a href="/db_weather/user/admin/service/list.php">
+                        <i class="fa fa-server"></i>
+                        Services
+                    </a>
+                </li>
+                <li>
+                    <a href="/db_weather/user/admin/map/list.php">
+                        <i class="fa fa-map-o"></i>
+                        Maps
+                    </a>
+                </li>
             </ul>
         </nav>
     </div>
