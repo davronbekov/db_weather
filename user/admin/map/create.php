@@ -7,36 +7,36 @@
  */
 
 
-    require '../../../autoload.php';
+require '../../../autoload.php';
 
-    use vendor\models\Map;
-    use vendor\models\Provides;
-    use vendor\models\Service;
+use vendor\models\Map;
+use vendor\models\Provides;
+use vendor\models\Service;
 
-    $errorClass = [
-        'map_id' => '',
-        'description' => '',
-    ];
+$errorClass = [
+    'map_id' => '',
+    'description' => '',
+];
 
-    if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
-        $map_id = uniqid();
+    $map_id = uniqid();
 
-        Map::insertItem([
+    Map::insertItem([
+        'map_id' => $map_id,
+        'description' => $_POST['description'],
+    ]);
+
+    foreach ($_POST['provides'] as $service){
+        Provides::insertItem([
             'map_id' => $map_id,
-            'description' => $_POST['description'],
+            'name' => $service,
         ]);
-
-        foreach ($_POST['provides'] as $service){
-            Provides::insertItem([
-                'map_id' => $map_id,
-                'name' => $service,
-            ]);
-        }
-
     }
 
-    $services = Service::getItems();
+}
+
+$services = Service::getItems();
 
 ?>
 
@@ -56,11 +56,11 @@
     <div class="app" id="app">
 
         <?php
-            require '../pieces/header.php';
+        require '../pieces/header.php';
         ?>
 
         <?php
-            require '../pieces/menu.php';
+        require '../pieces/menu.php';
         ?>
 
         <article class="content item-editor-page">
@@ -82,10 +82,10 @@
                         <label class="col-sm-2 form-control-label text-xs-right"> Services: </label>
                         <select class="w-50" name="provides[]" multiple>
                             <?php
-                                foreach ($services as $service){ ?>
-                                    <option value="<?= $service['name']?>"><?= $service['name']?></option>
-                            <?php
-                                }
+                            foreach ($services as $service){ ?>
+                                <option value="<?= $service['name']?>"><?= $service['name']?></option>
+                                <?php
+                            }
                             ?>
                         </select>
                     </div>

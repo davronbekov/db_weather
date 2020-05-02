@@ -2,19 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea115a52-145a-457f-bd95-e62c2219a520" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/user/admin/map/create.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/admin/map/delete.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/admin/map/edit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/admin/map/list.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/admin/service/create.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/admin/service/delete.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/admin/service/edit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/admin/service/list.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/models/Map.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/models/Provides.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/models/Service.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/admin/colors/create.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/admin/colors/delete.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/admin/colors/edit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/admin/colors/list.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/models/Color_mapping.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/admin/country/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/admin/country/edit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/admin/map/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/admin/map/create.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/admin/pieces/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/admin/pieces/menu.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,13 +26,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/user/admin/service/edit.php">
+        <entry file="file://$PROJECT_DIR$/user/admin/colors/edit.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="118" column="76" lean-forward="true" selection-start-line="118" selection-start-column="76" selection-end-line="118" selection-end-column="76" />
+            <state relative-caret-position="66">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
               <folding>
-                <element signature="e#132#154#0#PHP" expanded="true" />
+                <element signature="e#132#164#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user/admin/colors/create.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="34" column="4" lean-forward="true" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user/admin/pieces/menu.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="743">
+              <caret line="63" column="69" lean-forward="true" selection-start-line="63" selection-start-column="69" selection-end-line="63" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -57,6 +69,7 @@
       <find>description</find>
       <find>country_name</find>
       <find>provides</find>
+      <find>map_id</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -70,7 +83,6 @@
         <option value="$PROJECT_DIR$/vendor/libs/db.php" />
         <option value="$PROJECT_DIR$/user/admin/users/autoload.php" />
         <option value="$PROJECT_DIR$/autoload.php" />
-        <option value="$PROJECT_DIR$/user/admin/pieces/header.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/user/admin/index.php" />
         <option value="$PROJECT_DIR$/user/admin/users/create.php" />
@@ -83,7 +95,6 @@
         <option value="$PROJECT_DIR$/user/admin/tariff/create.php" />
         <option value="$PROJECT_DIR$/vendor/models/Tariff.php" />
         <option value="$PROJECT_DIR$/user/admin/users/edit.php" />
-        <option value="$PROJECT_DIR$/user/admin/tariff/list.php" />
         <option value="$PROJECT_DIR$/user/admin/tariff/edit.php" />
         <option value="$PROJECT_DIR$/user/admin/tariff/delete.php" />
         <option value="$PROJECT_DIR$/vendor/models/Country.php" />
@@ -96,13 +107,24 @@
         <option value="$PROJECT_DIR$/user/admin/country/edit.php" />
         <option value="$PROJECT_DIR$/vendor/models/Service.php" />
         <option value="$PROJECT_DIR$/user/admin/service/list.php" />
-        <option value="$PROJECT_DIR$/user/admin/pieces/menu.php" />
         <option value="$PROJECT_DIR$/user/admin/service/delete.php" />
         <option value="$PROJECT_DIR$/vendor/models/Provides.php" />
         <option value="$PROJECT_DIR$/user/admin/service/create.php" />
         <option value="$PROJECT_DIR$/user/admin/service/edit.php" />
-        <option value="$PROJECT_DIR$/user/admin/map/create.php" />
         <option value="$PROJECT_DIR$/user/admin/map/edit.php" />
+        <option value="$PROJECT_DIR$/user/admin/pieces/header.php" />
+        <option value="$PROJECT_DIR$/user/admin/tariff/list.php" />
+        <option value="$PROJECT_DIR$/user/admin/map/create.php" />
+        <option value="$PROJECT_DIR$/user/admin/map/colors/edit.php" />
+        <option value="$PROJECT_DIR$/user/admin/map/colors/delete.php" />
+        <option value="$PROJECT_DIR$/user/admin/map/colors/create.php" />
+        <option value="$PROJECT_DIR$/vendor/models/Color_mapping.php" />
+        <option value="$PROJECT_DIR$/user/admin/map/colors/list.php" />
+        <option value="$PROJECT_DIR$/user/admin/pieces/menu.php" />
+        <option value="$PROJECT_DIR$/user/admin/colors/create.php" />
+        <option value="$PROJECT_DIR$/user/admin/colors/list.php" />
+        <option value="$PROJECT_DIR$/user/admin/colors/delete.php" />
+        <option value="$PROJECT_DIR$/user/admin/colors/edit.php" />
       </list>
     </option>
   </component>
@@ -153,21 +175,14 @@
               <item name="db_weather" type="462c0819:PsiDirectoryNode" />
               <item name="user" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="map" type="462c0819:PsiDirectoryNode" />
+              <item name="colors" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="db_weather" type="b2602c69:ProjectViewProjectNode" />
               <item name="db_weather" type="462c0819:PsiDirectoryNode" />
               <item name="user" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="db_weather" type="b2602c69:ProjectViewProjectNode" />
-              <item name="db_weather" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="tariff" type="462c0819:PsiDirectoryNode" />
+              <item name="pieces" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="db_weather" type="b2602c69:ProjectViewProjectNode" />
@@ -188,7 +203,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/user/admin/service" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/user/admin/map/colors" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -202,17 +217,18 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\db_weather\user\admin" />
       <recent name="C:\xampp\htdocs\db_weather\user\admin\pieces" />
       <recent name="C:\xampp\htdocs\db_weather\libs" />
       <recent name="C:\xampp\htdocs\db_weather" />
       <recent name="C:\xampp\htdocs\db_weather\connections" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\db_weather\user\admin\map\colors" />
       <recent name="C:\xampp\htdocs\db_weather\user\admin\service" />
       <recent name="C:\xampp\htdocs\db_weather\user\admin\map" />
       <recent name="C:\xampp\htdocs\db_weather\vendor\models" />
       <recent name="C:\xampp\htdocs\db_weather\user\admin" />
-      <recent name="C:\xampp\htdocs\db_weather\user\admin\tariff" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -248,7 +264,7 @@
       <workItem from="1586764906485" duration="24000" />
       <workItem from="1587395473018" duration="9000" />
       <workItem from="1588350283258" duration="9033000" />
-      <workItem from="1588394157233" duration="14957000" />
+      <workItem from="1588394157233" duration="18260000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1586542592819</created>
@@ -292,11 +308,25 @@
       <option name="project" value="LOCAL" />
       <updated>1588403792970</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Services, Maps">
+      <created>1588422885451</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1588422885451</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Services, Maps fix">
+      <created>1588423382322</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1588423382322</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29200000" />
+    <option name="totallyTimeSpent" value="32503000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -332,20 +362,11 @@
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.gitignore&#10;#&#9;composer.json&#10;#&#9;composer.lock&#10;#&#9;index.php&#10;#&#9;vendor/libs/db.php" />
     <MESSAGE value="User, Tariff" />
     <MESSAGE value="Countries" />
-    <option name="LAST_COMMIT_MESSAGE" value="Countries" />
+    <MESSAGE value="Services, Maps" />
+    <MESSAGE value="Services, Maps fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Services, Maps fix" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/imagick/imagick.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="20" column="46" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/students.php" />
-    <entry file="file://$USER_HOME$/Desktop/timetable.php" />
-    <entry file="file://$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/Image.php" />
-    <entry file="file://$PROJECT_DIR$/vendor/intervention/image/src/Intervention/Image/ImageManager.php" />
     <entry file="file://$PROJECT_DIR$/composer.json" />
     <entry file="file://$PROJECT_DIR$/libs/db.php" />
     <entry file="file://$PROJECT_DIR$/../db_weather2/public/login.php">
@@ -383,13 +404,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/admin/pieces/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="15" column="54" lean-forward="true" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
         </state>
       </provider>
     </entry>
@@ -494,13 +508,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/admin/tariff/list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="129" column="119" selection-start-line="129" selection-start-column="119" selection-end-line="129" selection-end-column="119" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/models/Tariff.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="423">
@@ -571,13 +578,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/models/Country.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="699">
-          <caret line="142" column="5" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="142" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/models/Map.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="721">
@@ -589,13 +589,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
           <caret line="50" column="70" selection-start-line="50" selection-start-column="66" selection-end-line="50" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/admin/pieces/menu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="53" column="24" lean-forward="true" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -627,16 +620,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/admin/map/create.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-          <folding>
-            <element signature="e#140#162#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user/admin/service/create.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="421">
@@ -663,6 +646,82 @@
           <caret line="118" column="76" lean-forward="true" selection-start-line="118" selection-start-column="76" selection-end-line="118" selection-end-column="76" />
           <folding>
             <element signature="e#132#154#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/admin/pieces/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/admin/tariff/list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/admin/map/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2266">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
+          <folding>
+            <element signature="e#140#162#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/models/Country.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="699">
+          <caret line="142" column="5" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="142" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/models/Color_mapping.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2029">
+          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/admin/pieces/menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="743">
+          <caret line="63" column="69" lean-forward="true" selection-start-line="63" selection-start-column="69" selection-end-line="63" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/admin/colors/list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2640">
+          <caret line="125" column="56" selection-start-line="125" selection-start-column="56" selection-end-line="125" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/admin/colors/delete.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/admin/colors/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="34" column="4" lean-forward="true" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/admin/colors/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#132#164#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

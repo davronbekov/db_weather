@@ -59,6 +59,13 @@
                         Maps
                     </a>
                 </li>
+
+                <li>
+                    <a href="/db_weather/user/admin/colors/list.php">
+                        <i class="fa fa-map-pin"></i>
+                        Maps colors
+                    </a>
+                </li>
             </ul>
         </nav>
     </div>
