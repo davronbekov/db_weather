@@ -66,6 +66,13 @@
                         Maps colors
                     </a>
                 </li>
+
+                <li>
+                    <a href="/db_weather/user/admin/graph/index.php">
+                        <i class="fa fa-line-chart"></i>
+                        Graphical map
+                    </a>
+                </li>
             </ul>
         </nav>
     </div>
