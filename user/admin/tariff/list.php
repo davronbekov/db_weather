@@ -122,7 +122,7 @@ $tariffs = Tariff::getItems();
                                             <div class="item-actions-block">
                                                 <ul class="item-actions-list">
                                                     <li>
-                                                        <a class="remove" href="/db_weather/user/admin/tariff/delete.php?id=<?= $tariff['id'] ?>" onclick="return confirm('Do you really want to delete this user?')">
+                                                        <a class="remove" href="/db_weather/user/admin/tariff/delete.php?id=<?= $tariff['id'] ?>" onclick="return confirm('Do you really want to delete this tariff?')">
                                                             <i class="fa fa-trash-o "></i>
                                                         </a>
                                                     </li>

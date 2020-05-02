@@ -12,7 +12,7 @@
     <div class="header-block header-block-nav">
         <ul class="nav-profile">
             <li class="profile">
-                <a class="nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                <a href="/db_weather/index.php">
                     <span class="name"> Logout </span>
                 </a>
             </li>
