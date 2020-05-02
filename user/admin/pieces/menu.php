@@ -41,6 +41,12 @@
                         Tariffs
                     </a>
                 </li>
+                <li>
+                    <a href="/db_weather/user/admin/country/list.php">
+                        <i class="fa fa-list-ol"></i>
+                        Countries
+                    </a>
+                </li>
             </ul>
         </nav>
     </div>
