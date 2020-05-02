@@ -291,7 +291,6 @@
                     }
                 } else {
 
-                    console.error("FUCK", color)
                     return grad_value
                 }
             }
